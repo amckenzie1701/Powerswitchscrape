@@ -1,0 +1,1000 @@
+Running 6 parallel workers
+[W6 1/65] Row 7: Auckland / Pukekohe / 5+ people / Electric hot water cylinder / Night store heater
+[W1 1/66] Row 2: Auckland / Pukekohe / 1-2 people / Electric hot water cylinder / Heat pump
+[W3 1/65] Row 4: Auckland / Pukekohe / 1-2 people / Electric continuous hot water / Heat pump
+[W5 1/65] Row 6: Auckland / Pukekohe / 5+ people / Electric hot water cylinder / Heat pump
+[W2 1/66] Row 3: Auckland / Pukekohe / 1-2 people / Electric hot water cylinder / Night store heater
+[W4 1/65] Row 5: Auckland / Pukekohe / 1-2 people / Electric continuous hot water / Night store heater
+    -> 11 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=qonyazgwkA
+[W6 2/65] Row 13: Auckland / Auckland North / West / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 3: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("heading", name=re.compile(r"What region do you live in\?", re.IGNORECASE)) to be visible
+
+    !! attempt 1/3 failed for row 5: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("heading", name=re.compile(r"What region do you live in\?", re.IGNORECASE)) to be visible
+
+    -> 11 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=ZEDxQJaVED
+[W2 2/66] Row 9: Auckland / Pukekohe / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=pEyZNaQVmY
+[W1 2/66] Row 8: Auckland / Pukekohe / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=xmgAXlNLoe
+[W5 2/65] Row 12: Auckland / Auckland North / West / 1-2 people / Electric continuous hot water / Heat pump
+    -> 18 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=yExNqaNqkg
+[W5 3/65] Row 18: Auckland / Auckland Central / Manukau / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=rorPKjPJme
+[W1 3/66] Row 14: Auckland / Auckland North / West / 5+ people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=BEbNrPNNEV
+[W1 4/66] Row 20: Auckland / Auckland Central / Manukau / 1-2 people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=loXaVKaPEw
+[W5 4/65] Row 24: Auckland / Auckland Central / Manukau / 5+ people / Electric continuous hot water / Heat pump
+    -> 19 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=vkVbnGbNka
+[W1 5/66] Row 26: Bay of Plenty / Whakatane / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 19 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=wEWdVQdAmb
+[W5 5/65] Row 30: Bay of Plenty / Whakatane / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=ZkGgMDgjkq
+[W5 6/65] Row 36: Bay of Plenty / Rural Eastern Bay of Plenty / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=JmQxBbxwEq
+[W1 6/66] Row 32: Bay of Plenty / Whakatane / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=QEdvNqlOkG
+[W3 2/65] Row 10: Auckland / Auckland North / West / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=MEaRNYRwmn
+[W1 7/66] Row 38: Bay of Plenty / Rural Eastern Bay of Plenty / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=YkvbeabWkV
+[W5 7/65] Row 42: Bay of Plenty / Tauranga / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=vojgybgGEY
+[W3 3/65] Row 16: Auckland / Auckland North / West / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=xmgAXlAKoe
+[W5 8/65] Row 48: Bay of Plenty / Tauranga / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=pEyZNaZMmY
+[W1 8/66] Row 44: Bay of Plenty / Tauranga / 1-2 people / Electric continuous hot water / Heat pump
+    -> 18 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=QEdvNqvekG
+[W3 4/65] Row 22: Auckland / Auckland Central / Manukau / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=xoNynlyQkW
+[W5 9/65] Row 54: Canterbury / South Canterbury (Urban) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=LEJyveyKon
+[W1 9/66] Row 50: Canterbury / South Canterbury (Urban) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=qmnyazywEA
+[W3 5/65] Row 28: Bay of Plenty / Whakatane / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=bEpgGQgnoN
+[W1 10/66] Row 56: Canterbury / South Canterbury (Urban) / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=vkMqaLqBkj
+[W5 10/65] Row 60: Canterbury / South Canterbury (Rural) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=eEBPLMPZkw
+[W3 6/65] Row 34: Bay of Plenty / Rural Eastern Bay of Plenty / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=ZEAgNpgPkw
+[W5 11/65] Row 66: Canterbury / Ashburton (8 kVA - Capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=ZkDxQJxVkD
+[W3 7/65] Row 40: Bay of Plenty / Rural Eastern Bay of Plenty / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=bkpgGQenmN
+[W6 3/65] Row 19: Auckland / Auckland Central / Manukau / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=BEYavnapEe
+[W5 12/65] Row 72: Canterbury / Ashburton (8 kVA - Capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=OEPqyrqBmv
+[W3 8/65] Row 46: Bay of Plenty / Tauranga / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=RkePrZPJmn
+[W6 4/65] Row 25: Auckland / Auckland Central / Manukau / 5+ people / Electric continuous hot water / Night store heater
+    -> 17 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=VoqgyKgbmw
+[W5 13/65] Row 78: Canterbury / Ashburton (20 kVA - Capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=wmZabpagEB
+[W3 9/65] Row 52: Canterbury / South Canterbury (Urban) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=VELwDZwWoz
+[W6 5/65] Row 31: Bay of Plenty / Whakatane / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=WmlgwVrPED
+[W5 14/65] Row 84: Canterbury / North Canterbury / 1-2 people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 56: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=ykxNqagqEg
+[W3 10/65] Row 58: Canterbury / South Canterbury (Rural) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=rmrPKjLJoe
+[W6 6/65] Row 37: Bay of Plenty / Rural Eastern Bay of Plenty / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 2/3 failed for row 56: RuntimeError: No plans captured on results page
+    -> 17 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=lmXaVKPPkw
+[W5 15/65] Row 90: Canterbury / Christchurch / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=bkOjexdbmZ
+[W4 2/65] Row 11: Auckland / Auckland North / West / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 37: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=wkWdVQJAob
+[W3 11/65] Row 64: Canterbury / South Canterbury (Rural) / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=ZEGgMDYjEq
+[W5 16/65] Row 96: Canterbury / Christchurch / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=JoQxBbMwkq
+[W4 3/65] Row 17: Auckland / Auckland North / West / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=ykKNjqKGmr
+[W6 7/65] Row 43: Bay of Plenty / Tauranga / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=MkaRNYawon
+[W3 12/65] Row 70: Canterbury / Ashburton (8 kVA - Capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 17: RuntimeError: No plans captured on results page
+    -> 17 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=YEvbeaLWEV
+[W5 17/65] Row 102: Central North Island / Taupo / 5+ people / Electric hot water cylinder / Heat pump
+    -> 13 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=xogAXlrKme
+[W6 8/65] Row 49: Bay of Plenty / Tauranga / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=pkyZNaLMoY
+[W3 13/65] Row 76: Canterbury / Ashburton (20 kVA - Capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=QkdvNqpeEG
+[W4 4/65] Row 23: Auckland / Auckland Central / Manukau / 5+ people / Electric hot water cylinder / Night store heater
+    -> 14 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=xmNynlVQEW
+[W5 18/65] Row 108: Central North Island / King Country (High Density) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=LkJyvejKmn
+[W6 9/65] Row 55: Canterbury / South Canterbury (Urban) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 14 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=bkpgGQLnmN
+[W4 5/65] Row 29: Bay of Plenty / Whakatane / 1-2 people / Electric continuous hot water / Night store heater
+    -> 17 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=qonyazYwkA
+[W3 14/65] Row 82: Canterbury / North Canterbury / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 3/3 failed for row 56: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+[W1 11/66] Row 62: Canterbury / South Canterbury (Rural) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 20 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=vEMqaLVBEj
+[W5 19/65] Row 114: Central North Island / King Country (Low Density) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=ekBPLMBZEw
+[W6 10/65] Row 61: Canterbury / South Canterbury (Rural) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 114: RuntimeError: No plans captured on results page
+    -> 17 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=OkPqyrNBov
+[W2 3/66] Row 15: Auckland / Auckland North / West / 5+ people / Electric hot water cylinder / Night store heater
+    -> 18 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=ZkAgNpMPEw
+[W3 15/65] Row 88: Canterbury / North Canterbury / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=KERrAXBXER
+[W1 12/66] Row 68: Canterbury / Ashburton (8 kVA - Capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=ZEDxQJRVED
+[W6 11/65] Row 67: Canterbury / Ashburton (8 kVA - Capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 68: RuntimeError: No plans captured on results page
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=BkYavnepke
+[W5 20/65] Row 120: Central North Island / King Country (Low Density) / 5+ people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 67: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=OkPqyrpBov
+[W2 4/66] Row 21: Auckland / Auckland Central / Manukau / 1-2 people / Electric continuous hot water / Night store heater
+    -> 17 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=REePrZMJon
+[W3 16/65] Row 94: Canterbury / Christchurch / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=rorPKjNJme
+[W2 5/66] Row 27: Bay of Plenty / Whakatane / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 19 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=WolgwVOPkD
+[W5 21/65] Row 126: Eastland / Central Hawke's Bay / 5+ people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=yExNqaBqkg
+[W1 13/66] Row 74: Canterbury / Ashburton (20 kVA - Capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=loXaVKwPEw
+[W3 17/65] Row 100: Central North Island / Taupo / 1-2 people / Electric continuous hot water / Heat pump
+    -> 19 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=BEbNrPbNEV
+[W6 12/65] Row 73: Canterbury / Ashburton (8 kVA - Capacity) / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 29: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=vkVbnGNNka
+[W5 22/65] Row 132: Eastland / Eastland (High Density) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=wEWdVQKAmb
+[W2 6/66] Row 33: Bay of Plenty / Whakatane / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=BEzzRdbnEr
+[W1 14/66] Row 80: Canterbury / Ashburton (20 kVA - Capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=ZkGgMDyjkq
+[W3 18/65] Row 106: Central North Island / King Country (High Density) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 10 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=JmQxBbawEq
+[W6 13/65] Row 79: Canterbury / Ashburton (20 kVA - Capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=MEaRNYLwmn
+[W2 7/66] Row 39: Bay of Plenty / Rural Eastern Bay of Plenty / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=vojgybAGEY
+[W5 23/65] Row 138: Eastland / Hawke's Bay / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=YkvbeapWkV
+[W4 6/65] Row 35: Bay of Plenty / Rural Eastern Bay of Plenty / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=xmgAXlpKoe
+[W1 15/66] Row 86: Canterbury / North Canterbury / 5+ people / Electric hot water cylinder / Heat pump
+    -> 18 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=pEyZNaAMmY
+[W3 19/65] Row 112: Central North Island / King Country (High Density) / 5+ people / Electric continuous hot water / Heat pump
+    -> 19 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=QEdvNqYekG
+[W6 14/65] Row 85: Canterbury / North Canterbury / 1-2 people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=bkpgGQzXmN
+[W5 24/65] Row 144: Eastland / Hawke's Bay / 5+ people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=ekBPLMavEw
+[W4 7/65] Row 41: Bay of Plenty / Rural Eastern Bay of Plenty / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=vEMqaLNOEj
+[W2 8/66] Row 45: Bay of Plenty / Tauranga / 1-2 people / Electric continuous hot water / Night store heater
+    -> 19 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=ZkAgNpaLEw
+[W1 16/66] Row 92: Canterbury / Christchurch / 1-2 people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=KERrAXdgER
+[W6 15/65] Row 91: Canterbury / Christchurch / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=ZEDxQJyJED
+[W2 9/66] Row 51: Canterbury / South Canterbury (Urban) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=BkYavndNke
+[W4 8/65] Row 47: Bay of Plenty / Tauranga / 5+ people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=OkPqyrdAov
+[W1 17/66] Row 98: Central North Island / Taupo / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 19 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=REePrZNLon
+[W6 16/65] Row 97: Canterbury / Christchurch / 5+ people / Electric continuous hot water / Night store heater
+    -> 13 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=woZabpDQkB
+[W4 9/65] Row 53: Canterbury / South Canterbury (Urban) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=VkLwDZLqmz
+[W2 10/66] Row 57: Canterbury / South Canterbury (Urban) / 5+ people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=WolgwVOxkD
+[W1 18/66] Row 104: Central North Island / Taupo / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=yExNqaBPkg
+[W6 17/65] Row 103: Central North Island / Taupo / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=BEbNrPKrEV
+[W4 10/65] Row 59: Canterbury / South Canterbury (Rural) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 10 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=wEWdVQAJmb
+[W6 18/65] Row 109: Central North Island / King Country (High Density) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=vkVbnGBbka
+[W1 19/66] Row 110: Central North Island / King Country (High Density) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 18 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=loXaVKReEw
+[W2 11/66] Row 63: Canterbury / South Canterbury (Rural) / 5+ people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 112: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 1/3 failed for row 59: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 144: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 20 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=ZkGgMDrrkq
+[W6 19/65] Row 115: Central North Island / King Country (Low Density) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=JmQxBbZKEq
+[W2 12/66] Row 69: Canterbury / Ashburton (8 kVA - Capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=yEKNjqJPor
+[W1 20/66] Row 116: Central North Island / King Country (Low Density) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 20 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=PmwlqNvykl
+[W3 20/65] Row 118: Central North Island / King Country (Low Density) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=MEaRNYXVmn
+[W4 11/65] Row 65: Canterbury / South Canterbury (Rural) / 5+ people / Electric continuous hot water / Night store heater
+    -> 10 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=vojgybDREY
+[W2 13/66] Row 75: Canterbury / Ashburton (20 kVA - Capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 13 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=xmgAXlwRoe
+[W6 20/65] Row 121: Central North Island / King Country (Low Density) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=YkvbeaKPkV
+[W5 25/65] Row 150: Eastland / Southern Hawke's Bay / 5+ people / Electric hot water cylinder / Heat pump
+    -> 21 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=pEyZNarJmY
+[W1 21/66] Row 122: Eastland / Central Hawke's Bay / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=xoNynlZWkW
+[W4 12/65] Row 71: Canterbury / Ashburton (8 kVA - Capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 19 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=LEJyveJpon
+[W2 14/66] Row 81: Canterbury / Ashburton (20 kVA - Capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 13 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=bEpgGQNXoN
+[W5 26/65] Row 156: Marlborough / Marlborough / 1-2 people / Electric continuous hot water / Heat pump
+    -> 19 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=qmnyazNxEA
+[W6 21/65] Row 127: Eastland / Central Hawke's Bay / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=vkMqaLdOkj
+[W1 22/66] Row 128: Eastland / Central Hawke's Bay / 5+ people / Electric continuous hot water / Heat pump
+    -> 10 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=KkRrAXygkR
+[W2 15/66] Row 87: Canterbury / North Canterbury / 5+ people / Electric hot water cylinder / Night store heater
+    -> 10 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=bEOjexyQoZ
+[W6 22/65] Row 133: Eastland / Eastland (High Density) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 19 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=eEBPLMYvkw
+[W4 13/65] Row 77: Canterbury / Ashburton (20 kVA - Capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=ZEAgNpYLkw
+[W5 27/65] Row 162: Marlborough / Nelson City / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=ZkDxQJjJkD
+[W1 23/66] Row 134: Eastland / Eastland (High Density) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 10 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=wmZabpPQEB
+[W4 14/65] Row 83: Canterbury / North Canterbury / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=OEPqyrlAmv
+[W2 16/66] Row 93: Canterbury / Christchurch / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=VoqgyKYDmw
+[W6 23/65] Row 139: Eastland / Hawke's Bay / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=VELwDZgqoz
+[W5 28/65] Row 168: Marlborough / Nelson City / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=WmlgwVaxED
+[W1 24/66] Row 140: Eastland / Hawke's Bay / 1-2 people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 118: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=ykxNqadPEg
+[W4 15/65] Row 89: Canterbury / North Canterbury / 5+ people / Electric continuous hot water / Night store heater
+    -> 11 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=lmXaVKNekw
+[W6 24/65] Row 145: Eastland / Hawke's Bay / 5+ people / Electric continuous hot water / Night store heater
+    -> 17 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=rmrPKjOxoe
+[W2 17/66] Row 99: Central North Island / Taupo / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=BkbNrParkV
+[W5 29/65] Row 174: Marlborough / Tasman / Nelson Districts / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=vEVbnGjbEa
+[W1 25/66] Row 146: Eastland / Southern Hawke's Bay / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 174: RuntimeError: No plans captured on results page
+    -> 10 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=BkzzRdnbkr
+[W2 18/66] Row 105: Central North Island / Taupo / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=wkWdVQjJob
+[W3 21/65] Row 124: Eastland / Central Hawke's Bay / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=ZEGgMDRrEq
+[W6 25/65] Row 151: Eastland / Southern Hawke's Bay / 5+ people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=JoQxBbKKkq
+[W4 16/65] Row 95: Canterbury / Christchurch / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=PowlqNKyEl
+[W1 26/66] Row 152: Eastland / Southern Hawke's Bay / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=MkaRNYqVon
+[W5 30/65] Row 180: Northland / Whangarei / 1-2 people / Electric continuous hot water / Heat pump
+    -> 13 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=YEvbearPEV
+[W6 26/65] Row 157: Marlborough / Marlborough / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=vmjgybVRkY
+[W3 22/65] Row 130: Eastland / Eastland (High Density) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 19 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=xogAXlWRme
+[W4 17/65] Row 101: Central North Island / Taupo / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 101: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 4,769, URL https://www.powerswitch.org.nz/results?p=QkdvNqbgEG
+[W5 31/65] Row 186: Northland / Northern Northland / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=xmNynlxWEW
+[W6 27/65] Row 163: Marlborough / Nelson City / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=LkJyveYpmn
+[W3 23/65] Row 136: Eastland / Eastland (High Density) / 5+ people / Electric continuous hot water / Heat pump
+    !! attempt 2/3 failed for row 101: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 105: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 0 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=bkOjexrQmZ
+[W4 18/65] Row 107: Central North Island / King Country (High Density) / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 152: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 14 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=ZkAgNpGLEw
+[W6 28/65] Row 169: Marlborough / Nelson City / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 5,100, URL https://www.powerswitch.org.nz/results?p=ekBPLMJvEw
+[W5 32/65] Row 192: Northland / Northern Northland / 5+ people / Electric continuous hot water / Heat pump
+    !! attempt 2/3 failed for row 105: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=KERrAXKgER
+[W3 24/65] Row 142: Eastland / Hawke's Bay / 5+ people / Electric hot water cylinder / Heat pump
+    -> 0 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=VkLwDZaqmz
+[W2 19/66] Row 111: Central North Island / King Country (High Density) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 10,667, URL https://www.powerswitch.org.nz/results?p=BkYavnqNke
+[W5 33/65] Row 198: Otago / Central Otago (8 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=OkPqyrKAov
+[W4 19/65] Row 113: Central North Island / King Country (High Density) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=REePrZvLon
+[W6 29/65] Row 175: Marlborough / Tasman / Nelson Districts / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=woZabpqQkB
+[W3 25/65] Row 148: Eastland / Southern Hawke's Bay / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=VmqgyKRDow
+[W1 27/66] Row 158: Marlborough / Marlborough / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=WolgwVnxkD
+[W2 20/66] Row 117: Central North Island / King Country (Low Density) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 148: RuntimeError: No plans captured on results page
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=yExNqaxPkg
+[W5 34/65] Row 204: Otago / Central Otago (15 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=rorPKjZxme
+[W6 30/65] Row 181: Northland / Whangarei / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=vkVbnGRbka
+[W1 28/66] Row 164: Marlborough / Nelson City / 1-2 people / Electric continuous hot water / Heat pump
+    -> 20 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=BEbNrPyrEV
+[W4 20/65] Row 119: Central North Island / King Country (Low Density) / 5+ people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 164: RuntimeError: No plans captured on results page
+    -> 21 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=BEzzRdpbEr
+[W2 21/66] Row 123: Eastland / Central Hawke's Bay / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=ZkGgMDjrkq
+[W3 26/65] Row 154: Marlborough / Marlborough / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 4,571, URL https://www.powerswitch.org.nz/results?p=JmQxBbnKEq
+[W6 31/65] Row 187: Northland / Northern Northland / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=yEKNjqPPor
+[W5 35/65] Row 210: Otago / Dunedin (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 13 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=MEaRNYyVmn
+[W4 21/65] Row 125: Eastland / Central Hawke's Bay / 1-2 people / Electric continuous hot water / Night store heater
+    -> 4 plans captured, usage 4,902, URL https://www.powerswitch.org.nz/results?p=pEyZNanJmY
+[W6 32/65] Row 193: Northland / Northern Northland / 5+ people / Electric continuous hot water / Night store heater
+    -> 10 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=xmgAXlyRoe
+[W2 22/66] Row 129: Eastland / Central Hawke's Bay / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=vojgybpREY
+[W3 27/65] Row 160: Marlborough / Marlborough / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=YkvbeagPkV
+[W1 29/66] Row 170: Marlborough / Tasman / Nelson Districts / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=QEdvNqygkG
+[W5 36/65] Row 216: Otago / Dunedin (8 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=qonyazRvkA
+[W4 22/65] Row 131: Eastland / Eastland (High Density) / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 129: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 10,302, URL https://www.powerswitch.org.nz/results?p=bkpgGQDRmN
+[W6 33/65] Row 199: Otago / Central Otago (8 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 7 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=bkOjexwRmZ
+[W4 23/65] Row 137: Eastland / Eastland (High Density) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=ekBPLMWKEw
+[W3 28/65] Row 166: Marlborough / Nelson City / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=ZkAgNpWlEw
+[W5 37/65] Row 222: Otago / Dunedin (15 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=KERrAXpZER
+[W1 30/66] Row 176: Marlborough / Tasman / Nelson Districts / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=BkYavnWPke
+[W2 23/66] Row 135: Eastland / Eastland (High Density) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=OkPqyrwrov
+[W6 34/65] Row 205: Otago / Central Otago (15 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=woZabpZMkB
+[W5 38/65] Row 228: Otago / Queenstown (8 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=VmqgyKZeow
+[W3 29/65] Row 172: Marlborough / Tasman / Nelson Districts / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=REePrZyjon
+[W4 24/65] Row 143: Eastland / Hawke's Bay / 5+ people / Electric hot water cylinder / Night store heater
+    -> 6 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=WolgwVBqkD
+[W2 24/66] Row 141: Eastland / Hawke's Bay / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=VkLwDZyjmz
+[W1 31/66] Row 182: Northland / Whangarei / 5+ people / Electric hot water cylinder / Heat pump
+    -> 11 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=loXaVKGMEw
+[W4 25/65] Row 149: Eastland / Southern Hawke's Bay / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=rorPKjZzme
+[W6 35/65] Row 211: Otago / Dunedin (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=vkVbnGlnka
+[W5 39/65] Row 234: Otago / Queenstown (15 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 11,423, URL https://www.powerswitch.org.nz/results?p=BEzzRdQzEr
+[W1 32/66] Row 188: Northland / Northern Northland / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=ZkGgMDNYkq
+[W4 26/65] Row 155: Marlborough / Marlborough / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=yEKNjqbJor
+[W5 40/65] Row 240: Otago / Queenstown (15 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 18 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=JmQxBbwaEq
+[W6 36/65] Row 217: Otago / Dunedin (8 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 4,769, URL https://www.powerswitch.org.nz/results?p=PmwlqNyKkl
+[W1 33/66] Row 194: Otago / Central Otago (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 217: RuntimeError: No plans captured on results page
+    -> 13 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=YkvbeaddkV
+[W4 27/65] Row 161: Marlborough / Marlborough / 5+ people / Electric continuous hot water / Night store heater
+    -> 17 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=vojgybWKEY
+[W5 41/65] Row 246: Otago / Lakelands - Embedded (8 kVA) / 5+ people / Electric hot water cylinder / Heat pump
+    !! attempt 2/3 failed for row 217: RuntimeError: No plans captured on results page
+    -> 0 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=LEJyvebzon
+[W6 37/65] Row 223: Otago / Dunedin (15 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=QEdvNqxJkG
+[W4 28/65] Row 167: Marlborough / Nelson City / 5+ people / Electric hot water cylinder / Night store heater
+    -> 12 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=xoNynlNekW
+[W5 42/65] Row 252: Otago / Lakelands - Embedded (15 kVA) / 1-2 people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 172: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 1/3 failed for row 141: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 14 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=bEpgGQyRoN
+[W4 29/65] Row 173: Marlborough / Tasman / Nelson Districts / 1-2 people / Electric continuous hot water / Night store heater
+    -> 18 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=vkMqaLjQkj
+[W6 38/65] Row 229: Otago / Queenstown (8 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 12 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=ZEAgNpxlkw
+[W5 43/65] Row 258: Otago / Otago / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 173: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=bEOjexJRoZ
+[W3 30/65] Row 178: Northland / Whangarei / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=ZkDxQJelkD
+[W2 25/66] Row 147: Eastland / Southern Hawke's Bay / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=OEPqyrbrmv
+[W6 39/65] Row 235: Otago / Queenstown (15 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 2/3 failed for row 173: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 194: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 0 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=WmlgwVNqED
+[W4 30/65] Row 179: Northland / Whangarei / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 13 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=VELwDZXjoz
+[W2 26/66] Row 153: Eastland / Southern Hawke's Bay / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 5,100, URL https://www.powerswitch.org.nz/results?p=wmZabpvMEB
+[W3 31/65] Row 184: Northland / Whangarei / 5+ people / Electric continuous hot water / Heat pump
+    -> 23 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=ykxNqaGKEg
+[W6 40/65] Row 241: Otago / Queenstown (15 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 4,902, URL https://www.powerswitch.org.nz/results?p=rmrPKjrzoe
+[W4 31/65] Row 185: Northland / Whangarei / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=BkbNrPWdkV
+[W1 34/66] Row 200: Otago / Central Otago (8 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=lmXaVKAMkw
+[W2 27/66] Row 159: Marlborough / Marlborough / 5+ people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=vEVbnGMnEa
+[W6 41/65] Row 247: Otago / Lakelands - Embedded (8 kVA) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 10,302, URL https://www.powerswitch.org.nz/results?p=BkzzRdyzkr
+[W4 32/65] Row 191: Northland / Northern Northland / 5+ people / Electric hot water cylinder / Night store heater
+    -> 13 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=JoQxBbGakq
+[W2 28/66] Row 165: Marlborough / Nelson City / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=ZEGgMDwYEq
+[W1 35/66] Row 206: Otago / Central Otago (15 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 4 plans captured, usage 11,058, URL https://www.powerswitch.org.nz/results?p=YEvbeaNdEV
+[W4 33/65] Row 197: Otago / Central Otago (8 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=PowlqNwKEl
+[W6 42/65] Row 253: Otago / Lakelands - Embedded (15 kVA) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 258: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=MkaRNYVyon
+[W2 29/66] Row 171: Marlborough / Tasman / Nelson Districts / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=vmjgybKKkY
+[W1 36/66] Row 212: Otago / Dunedin (8 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 12 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=pkyZNadvoY
+[W6 43/65] Row 259: Otago / Otago / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=xogAXlVbme
+[W4 34/65] Row 203: Otago / Central Otago (15 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=QkdvNqVJEG
+[W5 44/65] Row 264: Otago / Otago / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=xmNynlJeEW
+[W1 37/66] Row 218: Otago / Dunedin (15 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=LkJyveGzmn
+[W2 30/66] Row 177: Marlborough / Tasman / Nelson Districts / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 177: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 184: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=bkpgGQJRmN
+[W5 45/65] Row 270: Otago / Waitaki / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=ekBPLMwKEw
+[W1 38/66] Row 224: Otago / Dunedin (15 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 23 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=qonyazKvkA
+[W4 35/65] Row 209: Otago / Central Otago (15 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 2/3 failed for row 177: RuntimeError: No plans captured on results page
+    -> 0 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=VmqgyKaeow
+[W2 31/66] Row 183: Northland / Whangarei / 5+ people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 10,667, URL https://www.powerswitch.org.nz/results?p=bkOjexGRmZ
+[W3 32/65] Row 190: Northland / Northern Northland / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=BkYavnRPke
+[W5 46/65] Row 276: Southland / Invercargill (8 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=OkPqyrGrov
+[W1 39/66] Row 230: Otago / Queenstown (8 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=REePrZVjon
+[W4 36/65] Row 215: Otago / Dunedin (8 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 11,058, URL https://www.powerswitch.org.nz/results?p=woZabpOMkB
+[W2 32/66] Row 189: Northland / Northern Northland / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 11,423, URL https://www.powerswitch.org.nz/results?p=VkLwDZQjmz
+[W3 33/65] Row 196: Otago / Central Otago (8 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 6,100, URL https://www.powerswitch.org.nz/results?p=WolgwVKqkD
+[W5 47/65] Row 282: Southland / Invercargill (20 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=BEbNrPVdEV
+[W1 40/66] Row 236: Otago / Queenstown (15 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 18 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=rorPKjwzme
+[W4 37/65] Row 221: Otago / Dunedin (15 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 259: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 4,571, URL https://www.powerswitch.org.nz/results?p=loXaVKrMEw
+[W2 33/66] Row 195: Otago / Central Otago (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=vkVbnGvnka
+[W3 34/65] Row 202: Otago / Central Otago (15 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 18 plans captured, usage 6,431, URL https://www.powerswitch.org.nz/results?p=wEWdVQyYmb
+[W5 48/65] Row 288: Southland / Invercargill (20 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=BEzzRdMzEr
+[W1 41/66] Row 242: Otago / Lakelands - Embedded (8 kVA) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=yEKNjqZJor
+[W2 34/66] Row 201: Otago / Central Otago (8 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 18 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=JmQxBbvaEq
+[W6 44/65] Row 265: Otago / Otago / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=PmwlqNeKkl
+[W3 35/65] Row 208: Otago / Central Otago (15 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 12 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=YkvbeaPdkV
+[W1 42/66] Row 248: Otago / Lakelands - Embedded (8 kVA) / 5+ people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 248: RuntimeError: No plans captured on results page
+    -> 16 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=xmgAXlbboe
+[W6 45/65] Row 271: Otago / Waitaki / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=vojgybNKEY
+[W2 35/66] Row 207: Otago / Central Otago (15 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 12 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=QEdvNqrJkG
+[W1 43/66] Row 254: Otago / Lakelands - Embedded (15 kVA) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=qonyazpnkA
+[W6 46/65] Row 277: Southland / Invercargill (8 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 12 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=ekBPLMGVEw
+[W1 44/66] Row 260: Otago / Otago / 1-2 people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 221: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 2/3 failed for row 221: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 288: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=ZkAgNpZOEw
+[W1 45/66] Row 266: Otago / Waitaki / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 0 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=ZEDxQJgvED
+[W4 38/65] Row 227: Otago / Queenstown (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 2/3 failed for row 288: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 266: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 208: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 19 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=REePrZazon
+[W4 39/65] Row 233: Otago / Queenstown (8 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 13,125, URL https://www.powerswitch.org.nz/results?p=VmqgyKAKow
+[W5 49/65] Row 294: Southland / Southland (Urban - 8 kVA - Capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 207: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 16 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=woZabpGjkB
+[W3 36/65] Row 214: Otago / Dunedin (8 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=VkLwDZvnmz
+[W4 40/65] Row 239: Otago / Queenstown (15 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 277: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 18 plans captured, usage 13,881, URL https://www.powerswitch.org.nz/results?p=WolgwVJWkD
+[W5 50/65] Row 300: Southland / Southland (Urban - 20 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=rorPKjRbme
+[W3 37/65] Row 220: Otago / Dunedin (15 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 23 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=yExNqanlkg
+[W2 36/66] Row 213: Otago / Dunedin (8 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 213: RuntimeError: No plans captured on results page
+    -> 14 plans captured, usage 7,234, URL https://www.powerswitch.org.nz/results?p=loXaVKrvEw
+[W6 47/65] Row 283: Southland / Invercargill (20 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 6,100, URL https://www.powerswitch.org.nz/results?p=vkVbnGvDka
+[W5 51/65] Row 306: Southland / Southland (Rural - 8 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 23 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=BEbNrPxMEV
+[W4 41/65] Row 245: Otago / Lakelands - Embedded (8 kVA) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=wEWdVQXpmb
+[W3 38/65] Row 226: Otago / Queenstown (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 2/3 failed for row 213: RuntimeError: No plans captured on results page
+    -> 12 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=yEKNjqdKor
+[W4 42/65] Row 251: Otago / Lakelands - Embedded (15 kVA) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 0 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=xmgAXlMgoe
+[W2 37/66] Row 219: Otago / Dunedin (15 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 6,431, URL https://www.powerswitch.org.nz/results?p=PmwlqNXMkl
+[W5 52/65] Row 312: Southland / Southland (Rural - 8 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    !! attempt 2/3 failed for row 266: TimeoutError: Locator.click: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"^Next step$", re.IGNORECASE))
+    - locator resolved to <button disabled type="button" class="QuestPanel-nav-button Button Button--large Button--yellow-2 ml2">Next step</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    114 × waiting for element to be visible, enabled and stable
+        - element is not enabled
+      - retrying click action
+        - waiting 500ms
+
+    -> 15 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=MEaRNYwXmn
+[W3 39/65] Row 232: Otago / Queenstown (8 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 29 plans captured, usage 7,564, URL https://www.powerswitch.org.nz/results?p=JmQxBbXxEq
+[W6 48/65] Row 289: Southland / Invercargill (20 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 219: RuntimeError: No plans captured on results page
+    -> 14 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=xoNynljjkW
+[W4 43/65] Row 257: Otago / Lakelands - Embedded (15 kVA) / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 13,125, URL https://www.powerswitch.org.nz/results?p=qmnyazPnEA
+[W5 53/65] Row 318: Southland / Southland (Rural - 20 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=bEpgGQqwoN
+[W1 46/66] Row 272: Otago / Waitaki / 5+ people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 15,218, URL https://www.powerswitch.org.nz/results?p=vkMqaLXWkj
+[W6 49/65] Row 295: Southland / Southland (Urban - 8 kVA - Capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 12 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=ZEAgNpJOkw
+[W4 44/65] Row 263: Otago / Otago / 5+ people / Electric hot water cylinder / Night store heater
+    -> 18 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=eEBPLMdVkw
+[W2 38/66] Row 225: Otago / Dunedin (15 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 295: RuntimeError: No plans captured on results page
+    -> 14 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=KkRrAXwDkR
+[W1 47/66] Row 278: Southland / Invercargill (8 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 19 plans captured, usage 13,881, URL https://www.powerswitch.org.nz/results?p=bEOjexNYoZ
+[W5 54/65] Row 324: Taranaki / Opunake / 1-2 people / Electric continuous hot water / Heat pump
+    !! attempt 1/3 failed for row 225: RuntimeError: No plans captured on results page
+    -> 18 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=BEYavnwxEe
+[W4 45/65] Row 269: Otago / Waitaki / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 2/3 failed for row 225: RuntimeError: No plans captured on results page
+    -> 18 plans captured, usage 13,881, URL https://www.powerswitch.org.nz/results?p=RkePrZnzmn
+[W1 48/66] Row 284: Southland / Invercargill (20 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,102, URL https://www.powerswitch.org.nz/results?p=wmZabpdjEB
+[W5 55/65] Row 330: Waikato / Thames Valley Whangamata / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 24 plans captured, usage 15,974, URL https://www.powerswitch.org.nz/results?p=VoqgyKXKmw
+[W6 50/65] Row 301: Southland / Southland (Urban - 20 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 0 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=rmrPKjGboe
+[W2 39/66] Row 231: Otago / Queenstown (8 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 330: RuntimeError: No plans captured on results page
+    -> 14 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=ykxNqaXlEg
+[W4 46/65] Row 275: Southland / Invercargill (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 14 plans captured, usage 6,100, URL https://www.powerswitch.org.nz/results?p=BkbNrPwMkV
+[W1 49/66] Row 290: Southland / Southland (Urban - 8 kVA - Capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 232: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 17 plans captured, usage 7,234, URL https://www.powerswitch.org.nz/results?p=vEVbnGXDEa
+[W6 51/65] Row 307: Southland / Southland (Rural - 8 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=BkzzRdWRkr
+[W5 56/65] Row 336: Waikato / Thames Valley Whangamata / 5+ people / Electric continuous hot water / Heat pump
+    -> 18 plans captured, usage 6,431, URL https://www.powerswitch.org.nz/results?p=ZEGgMDXaEq
+[W1 50/66] Row 296: Southland / Southland (Urban - 8 kVA - Capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 29 plans captured, usage 7,564, URL https://www.powerswitch.org.nz/results?p=wkWdVQxpob
+[W4 47/65] Row 281: Southland / Invercargill (8 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=JoQxBbPxkq
+[W3 40/65] Row 238: Otago / Queenstown (15 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=ykKNjqBKmr
+[W5 57/65] Row 342: Waikato / Hamilton / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 15,218, URL https://www.powerswitch.org.nz/results?p=PowlqNWMEl
+[W4 48/65] Row 287: Southland / Invercargill (20 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 13,125, URL https://www.powerswitch.org.nz/results?p=MkaRNYxXon
+[W1 51/66] Row 302: Southland / Southland (Urban - 20 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=YEvbeaWrEV
+[W5 58/65] Row 348: Waikato / Waipa / 1-2 people / Electric continuous hot water / Heat pump
+    -> 19 plans captured, usage 13,881, URL https://www.powerswitch.org.nz/results?p=xogAXlRgme
+[W1 52/66] Row 308: Southland / Southland (Rural - 8 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 25 plans captured, usage 15,974, URL https://www.powerswitch.org.nz/results?p=vmjgybYpkY
+[W4 49/65] Row 293: Southland / Southland (Urban - 8 kVA - Capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 231: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 7,234, URL https://www.powerswitch.org.nz/results?p=pkyZNaWdoY
+[W4 50/65] Row 299: Southland / Southland (Urban - 20 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 307: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 19 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=xmNynlOjEW
+[W2 40/66] Row 237: Otago / Queenstown (15 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 238: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 1/3 failed for row 237: RuntimeError: No plans captured on results page
+    -> 28 plans captured, usage 7,564, URL https://www.powerswitch.org.nz/results?p=LkJyveMMmn
+[W4 51/65] Row 305: Southland / Southland (Urban - 20 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 27 plans captured, usage 7,564, URL https://www.powerswitch.org.nz/results?p=qonyazZnkA
+[W6 52/65] Row 313: Southland / Southland (Rural - 8 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=ZkAgNpXOEw
+[W3 41/65] Row 244: Otago / Lakelands - Embedded (8 kVA) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=KERrAXeDER
+[W2 41/66] Row 243: Otago / Lakelands - Embedded (8 kVA) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 15,218, URL https://www.powerswitch.org.nz/results?p=bkOjexDYmZ
+[W4 52/65] Row 311: Southland / Southland (Rural - 8 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 15,218, URL https://www.powerswitch.org.nz/results?p=BkYavnyxke
+[W6 53/65] Row 319: Southland / Southland (Rural - 20 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 311: RuntimeError: No plans captured on results page
+    !! attempt 1/3 failed for row 308: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 12 plans captured, usage 5,684, URL https://www.powerswitch.org.nz/results?p=OkPqyrYgov
+[W3 42/65] Row 250: Otago / Lakelands - Embedded (15 kVA) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 6,732, URL https://www.powerswitch.org.nz/results?p=REePrZBzon
+[W2 42/66] Row 249: Otago / Lakelands - Embedded (8 kVA) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=woZabpzjkB
+[W5 59/65] Row 354: Wellington / Wellington City / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 24 plans captured, usage 15,974, URL https://www.powerswitch.org.nz/results?p=VkLwDZAnmz
+[W6 54/65] Row 325: Taranaki / Opunake / 1-2 people / Electric continuous hot water / Night store heater
+    -> 12 plans captured, usage 6,015, URL https://www.powerswitch.org.nz/results?p=rorPKjWbme
+[W3 43/65] Row 256: Otago / Lakelands - Embedded (15 kVA) / 5+ people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 6,100, URL https://www.powerswitch.org.nz/results?p=yExNqaylkg
+[W1 53/66] Row 314: Southland / Southland (Rural - 20 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 12 plans captured, usage 13,682, URL https://www.powerswitch.org.nz/results?p=BEbNrPnMEV
+[W2 43/66] Row 255: Otago / Lakelands - Embedded (15 kVA) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 24 plans captured, usage 15,974, URL https://www.powerswitch.org.nz/results?p=WolgwVeWkD
+[W4 53/65] Row 317: Southland / Southland (Rural - 20 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=wEWdVQRpmb
+[W5 60/65] Row 360: Wellington / Wellington City / 5+ people / Electric continuous hot water / Heat pump
+    -> 13 plans captured, usage 5,237, URL https://www.powerswitch.org.nz/results?p=BEzzRdZREr
+[W6 55/65] Row 331: Waikato / Thames Valley Whangamata / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 12 plans captured, usage 12,357, URL https://www.powerswitch.org.nz/results?p=ZkGgMDBakq
+[W3 44/65] Row 262: Otago / Otago / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 14,438, URL https://www.powerswitch.org.nz/results?p=JmQxBbLxEq
+[W2 44/66] Row 261: Otago / Otago / 1-2 people / Electric continuous hot water / Night store heater
+    -> 19 plans captured, usage 6,431, URL https://www.powerswitch.org.nz/results?p=yEKNjqDKor
+[W1 54/66] Row 320: Southland / Southland (Rural - 20 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 7,234, URL https://www.powerswitch.org.nz/results?p=PmwlqNPMkl
+[W4 54/65] Row 323: Taranaki / Opunake / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=MEaRNYGXmn
+[W5 61/65] Row 366: Wellington / Levin / 5+ people / Electric hot water cylinder / Heat pump
+    -> 13 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=vojgybGpEY
+[W6 56/65] Row 337: Waikato / Thames Valley Whangamata / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 13,113, URL https://www.powerswitch.org.nz/results?p=xmgAXlGgoe
+[W3 45/65] Row 268: Otago / Waitaki / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 6,402, URL https://www.powerswitch.org.nz/results?p=pEyZNaJdmY
+[W2 45/66] Row 267: Otago / Waitaki / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 13 plans captured, usage 5,568, URL https://www.powerswitch.org.nz/results?p=QEdvNqGrkG
+[W4 55/65] Row 329: Taranaki / Opunake / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=qonyaznPkA
+[W5 62/65] Row 372: Westland / Buller / 1-2 people / Electric continuous hot water / Heat pump
+    -> 1 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=vEMqaLPPEj
+[W6 57/65] Row 343: Waikato / Hamilton / 5+ people / Electric hot water cylinder / Night store heater
+    -> 14 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=bkpgGQMWmN
+[W3 46/65] Row 274: Southland / Invercargill (8 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=ekBPLMQrEw
+[W2 46/66] Row 273: Otago / Waitaki / 5+ people / Electric continuous hot water / Night store heater
+    -> 13 plans captured, usage 11,531, URL https://www.powerswitch.org.nz/results?p=ZkAgNpQeEw
+[W4 56/65] Row 335: Waikato / Thames Valley Whangamata / 5+ people / Electric hot water cylinder / Night store heater
+    -> 14 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=KERrAXnPER
+[W5 63/65] Row 378: Westland / Westland / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=ZEDxQJnKED
+[W2 47/66] Row 279: Southland / Invercargill (8 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 18 plans captured, usage 6,431, URL https://www.powerswitch.org.nz/results?p=bkOjexqKmZ
+[W3 47/65] Row 280: Southland / Invercargill (8 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 13 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=BkYavnDXke
+[W4 57/65] Row 341: Waikato / Hamilton / 1-2 people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=OkPqyrZeov
+[W5 64/65] Row 384: Westland / Westland / 5+ people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 13,125, URL https://www.powerswitch.org.nz/results?p=woZabpYekB
+[W3 48/65] Row 286: Southland / Invercargill (20 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=VmqgyKBLow
+[W4 58/65] Row 347: Waikato / Waipa / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 320: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=VkLwDZYZmz
+[W5 65/65] Row 390: Whanganui / Palmerston North / 5+ people / Electric hot water cylinder / Heat pump
+    -> 25 plans captured, usage 15,974, URL https://www.powerswitch.org.nz/results?p=REePrZGdon
+[W2 48/66] Row 285: Southland / Invercargill (20 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 14 plans captured, usage 7,234, URL https://www.powerswitch.org.nz/results?p=loXaVKOzEw
+[W2 49/66] Row 291: Southland / Southland (Urban - 8 kVA - Capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=BEbNrPvzEV
+    -> 16 plans captured, usage 13,125, URL https://www.powerswitch.org.nz/results?p=vkVbnGAzka
+[W1 55/66] Row 326: Taranaki / Opunake / 5+ people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 343: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 1/3 failed for row 286: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 11 plans captured, usage 5,401, URL https://www.powerswitch.org.nz/results?p=BEzzRdZLEr
+[W4 59/65] Row 353: Waikato / Waipa / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 291: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 1/3 failed for row 326: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 2/3 failed for row 343: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 12,038, URL https://www.powerswitch.org.nz/results?p=JmQxBbjBEq
+[W1 56/66] Row 332: Waikato / Thames Valley Whangamata / 1-2 people / Electric continuous hot water / Heat pump
+    -> 11 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=yEKNjqQOor
+[W6 58/65] Row 349: Waikato / Waipa / 1-2 people / Electric continuous hot water / Night store heater
+    -> 28 plans captured, usage 7,564, URL https://www.powerswitch.org.nz/results?p=ZkGgMDzlkq
+[W2 50/66] Row 297: Southland / Southland (Urban - 8 kVA - Capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,019, URL https://www.powerswitch.org.nz/results?p=PmwlqNAlkl
+[W1 57/66] Row 338: Waikato / Hamilton / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 15,218, URL https://www.powerswitch.org.nz/results?p=MEaRNYZamn
+[W2 51/66] Row 303: Southland / Southland (Urban - 20 kVA capacity) / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=YkvbeaBpkV
+[W1 58/66] Row 344: Waikato / Hamilton / 5+ people / Electric continuous hot water / Heat pump
+    !! attempt 2/3 failed for row 286: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    !! attempt 1/3 failed for row 344: RuntimeError: No plans captured on results page
+    -> 24 plans captured, usage 15,974, URL https://www.powerswitch.org.nz/results?p=vojgybQDEY
+[W2 52/66] Row 309: Southland / Southland (Rural - 8 kVA capacity) / 1-2 people / Electric continuous hot water / Night store heater
+    -> 18 plans captured, usage 13,881, URL https://www.powerswitch.org.nz/results?p=pEyZNaOnmY
+[W3 49/65] Row 292: Southland / Southland (Urban - 8 kVA - Capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 16 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=LEJyvezgon
+[W1 59/66] Row 350: Waikato / Waipa / 5+ people / Electric hot water cylinder / Heat pump
+    -> 17 plans captured, usage 11,224, URL https://www.powerswitch.org.nz/results?p=xoNynlzJkW
+[W4 60/65] Row 359: Wellington / Wellington City / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 7,234, URL https://www.powerswitch.org.nz/results?p=qmnyazQPEA
+[W2 53/66] Row 315: Southland / Southland (Rural - 20 kVA capacity) / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 6,100, URL https://www.powerswitch.org.nz/results?p=bEpgGQwWoN
+[W3 50/65] Row 298: Southland / Southland (Urban - 20 kVA capacity) / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=eEBPLMrrkw
+[W4 61/65] Row 365: Wellington / Levin / 1-2 people / Electric continuous hot water / Night store heater
+    -> 28 plans captured, usage 7,564, URL https://www.powerswitch.org.nz/results?p=ZEAgNpzekw
+[W2 54/66] Row 321: Southland / Southland (Rural - 20 kVA capacity) / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=KkRrAXJPkR
+[W6 59/65] Row 355: Wellington / Wellington City / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 19 plans captured, usage 6,431, URL https://www.powerswitch.org.nz/results?p=bEOjexzKoZ
+[W3 51/65] Row 304: Southland / Southland (Urban - 20 kVA capacity) / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=ZkDxQJGKkD
+[W4 62/65] Row 371: Westland / Buller / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=RkePrZQdmn
+[W6 60/65] Row 361: Wellington / Wellington City / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 15,218, URL https://www.powerswitch.org.nz/results?p=VoqgyKQLmw
+[W2 55/66] Row 327: Taranaki / Opunake / 5+ people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 13,125, URL https://www.powerswitch.org.nz/results?p=wmZabpReEB
+[W3 52/65] Row 310: Southland / Southland (Rural - 8 kVA capacity) / 5+ people / Electric hot water cylinder / Heat pump
+    -> 12 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=ykxNqaRbEg
+[W6 61/65] Row 367: Wellington / Levin / 5+ people / Electric hot water cylinder / Night store heater
+    -> 13 plans captured, usage 12,287, URL https://www.powerswitch.org.nz/results?p=WmlgwVQjED
+[W2 56/66] Row 333: Waikato / Thames Valley Whangamata / 1-2 people / Electric continuous hot water / Night store heater
+    -> 18 plans captured, usage 13,881, URL https://www.powerswitch.org.nz/results?p=lmXaVKBzkw
+[W3 53/65] Row 316: Southland / Southland (Rural - 20 kVA capacity) / 1-2 people / Electric continuous hot water / Heat pump
+    -> 1 plans captured, usage 5,071, URL https://www.powerswitch.org.nz/results?p=wkWdVQMaob
+[W2 57/66] Row 339: Waikato / Hamilton / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=vEVbnGpzEa
+[W6 62/65] Row 373: Westland / Buller / 1-2 people / Electric continuous hot water / Night store heater
+    -> 11 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=ZEGgMDWlEq
+[W2 58/66] Row 345: Waikato / Hamilton / 5+ people / Electric continuous hot water / Night store heater
+    -> 16 plans captured, usage 6,100, URL https://www.powerswitch.org.nz/results?p=BkzzRdDLkr
+[W3 54/65] Row 322: Taranaki / Opunake / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=JoQxBbNBkq
+[W1 60/66] Row 356: Wellington / Wellington City / 1-2 people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=ykKNjqWOmr
+[W6 63/65] Row 379: Westland / Westland / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 16 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=PowlqNnlEl
+[W2 59/66] Row 351: Waikato / Waipa / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 5,432, URL https://www.powerswitch.org.nz/results?p=MkaRNYeaon
+[W3 55/65] Row 328: Taranaki / Opunake / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=YEvbeavpEV
+[W1 61/66] Row 362: Wellington / Levin / 1-2 people / Electric hot water cylinder / Heat pump
+    !! attempt 1/3 failed for row 371: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 11,282, URL https://www.powerswitch.org.nz/results?p=xogAXlvWme
+[W3 56/65] Row 334: Waikato / Thames Valley Whangamata / 5+ people / Electric hot water cylinder / Heat pump
+    -> 7 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=QkdvNqLxEG
+[W4 63/65] Row 377: Westland / Buller / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=pkyZNaMnoY
+[W1 62/66] Row 368: Wellington / Levin / 5+ people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=xmNynlWJEW
+[W4 64/65] Row 383: Westland / Westland / 5+ people / Electric hot water cylinder / Night store heater
+    -> 17 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=LkJyveQgmn
+[W1 63/66] Row 374: Westland / Buller / 5+ people / Electric hot water cylinder / Heat pump
+    -> 12 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=qonyazvPkA
+[W4 65/65] Row 389: Whanganui / Palmerston North / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=vEMqaLWPEj
+[W1 64/66] Row 380: Westland / Westland / 1-2 people / Electric continuous hot water / Heat pump
+    -> 13 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=ekBPLMqrEw
+    !! attempt 1/3 failed for row 379: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 5,601, URL https://www.powerswitch.org.nz/results?p=ZkAgNpeeEw
+[W1 65/66] Row 386: Whanganui / Palmerston North / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 12 plans captured, usage 6,566, URL https://www.powerswitch.org.nz/results?p=KERrAXaPER
+[W6 64/65] Row 385: Westland / Westland / 5+ people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 5,765, URL https://www.powerswitch.org.nz/results?p=bkOjexWKmZ
+[W1 66/66] Row 392: Whanganui / Palmerston North / 5+ people / Electric continuous hot water / Heat pump
+    -> 12 plans captured, usage 11,980, URL https://www.powerswitch.org.nz/results?p=ZEDxQJLKED
+[W2 60/66] Row 357: Wellington / Wellington City / 1-2 people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 334: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 15 plans captured, usage 13,374, URL https://www.powerswitch.org.nz/results?p=BkYavnMXke
+[W6 65/65] Row 391: Whanganui / Palmerston North / 5+ people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 11,896, URL https://www.powerswitch.org.nz/results?p=OkPqyrJeov
+    -> 12 plans captured, usage 5,903, URL https://www.powerswitch.org.nz/results?p=REePrZldon
+[W2 61/66] Row 363: Wellington / Levin / 1-2 people / Electric hot water cylinder / Night store heater
+    -> 15 plans captured, usage 11,884, URL https://www.powerswitch.org.nz/results?p=woZabpBekB
+[W3 57/65] Row 340: Waikato / Hamilton / 1-2 people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=VkLwDZKZmz
+[W2 62/66] Row 369: Wellington / Levin / 5+ people / Electric continuous hot water / Night store heater
+    -> 17 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=yExNqapbkg
+[W2 63/66] Row 375: Westland / Buller / 5+ people / Electric hot water cylinder / Night store heater
+    -> 7 plans captured, usage 14,130, URL https://www.powerswitch.org.nz/results?p=BEbNrPqzEV
+[W2 64/66] Row 381: Westland / Westland / 1-2 people / Electric continuous hot water / Night store heater
+    -> 15 plans captured, usage 6,235, URL https://www.powerswitch.org.nz/results?p=vkVbnGWzka
+[W2 65/66] Row 387: Whanganui / Palmerston North / 1-2 people / Electric hot water cylinder / Night store heater
+    !! attempt 1/3 failed for row 391: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 13 plans captured, usage 6,233, URL https://www.powerswitch.org.nz/results?p=wEWdVQnamb
+[W2 66/66] Row 393: Whanganui / Palmerston North / 5+ people / Electric continuous hot water / Night store heater
+    !! attempt 1/3 failed for row 340: TimeoutError: Locator.wait_for: Timeout 60000ms exceeded.
+Call log:
+  - waiting for get_by_role("combobox").first to be visible
+
+    -> 13 plans captured, usage 13,516, URL https://www.powerswitch.org.nz/results?p=JmQxBbYBEq
+    -> 13 plans captured, usage 12,760, URL https://www.powerswitch.org.nz/results?p=yEKNjqMOor
+    -> 16 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=MEaRNYDamn
+[W3 58/65] Row 346: Waikato / Waipa / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 5,349, URL https://www.powerswitch.org.nz/results?p=qonyazBKkA
+[W3 59/65] Row 352: Waikato / Waipa / 5+ people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 11,128, URL https://www.powerswitch.org.nz/results?p=vEMqaLAXEj
+[W3 60/65] Row 358: Wellington / Wellington City / 5+ people / Electric hot water cylinder / Heat pump
+    -> 16 plans captured, usage 12,652, URL https://www.powerswitch.org.nz/results?p=ekBPLMVyEw
+[W3 61/65] Row 364: Wellington / Levin / 1-2 people / Electric continuous hot water / Heat pump
+    -> 17 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=ZkAgNpVQEw
+[W3 62/65] Row 370: Westland / Buller / 1-2 people / Electric hot water cylinder / Heat pump
+    -> 15 plans captured, usage 5,932, URL https://www.powerswitch.org.nz/results?p=KERrAXPJER
+[W3 63/65] Row 376: Westland / Buller / 5+ people / Electric continuous hot water / Heat pump
+    -> 14 plans captured, usage 12,203, URL https://www.powerswitch.org.nz/results?p=BkYavnrQke
+[W3 64/65] Row 382: Westland / Westland / 5+ people / Electric hot water cylinder / Heat pump
+    -> 14 plans captured, usage 12,959, URL https://www.powerswitch.org.nz/results?p=REePrZqgon
+[W3 65/65] Row 388: Whanganui / Palmerston North / 1-2 people / Electric continuous hot water / Heat pump
+    -> 15 plans captured, usage 5,435, URL https://www.powerswitch.org.nz/results?p=VkLwDZBGmz
+Traceback (most recent call last):
+  File "C:\Users\Andrew.McKenzie\Repo\Powerswitchscrape\powerswitch_monthly_scrape.py", line 861, in <module>
+  File "C:\Users\Andrew.McKenzie\Repo\Powerswitchscrape\powerswitch_monthly_scrape.py", line 842, in main
+    print(f"Execution date: {execution_date}", flush=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrew.McKenzie\Repo\Powerswitchscrape\powerswitch_monthly_scrape.py", line 668, in append_rows_to_csv
+            )
+            ^
+    ...<2 lines>...
+    mode = "a" if has_content else "w"
+    ^^^^^^^^^
+ValueError: Cumulative CSV has unexpected header in Output\ALLPOWERSWITCHOUT.csv. Expected exact PowerSwitch output columns.

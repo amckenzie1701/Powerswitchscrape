@@ -1,0 +1,8329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PowerSwitch Comparison Report</title>
+
+<style>
+    :root {
+        --bg: #f3f5f7;
+        --card: #ffffff;
+        --ink: #13222f;
+        --muted: #5b6b79;
+        --line: #d8e0e7;
+        --accent: #0b7285;
+        --accent-soft: #e8f5f8;
+    }
+    body {
+        margin: 0;
+        font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+        background: linear-gradient(180deg, #ecf2f6 0%, #f8fafb 100%);
+        color: var(--ink);
+    }
+    .wrap {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .hero {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin-bottom: 18px;
+    }
+    .hero h1 {
+        margin: 0 0 8px 0;
+        font-size: 28px;
+    }
+    .meta {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 8px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+    .section {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 14px;
+        margin-bottom: 14px;
+    }
+    .section h2 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .controls {
+        margin: 10px 0;
+    }
+    .controls input {
+        width: min(460px, 100%);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .table-wrap {
+        overflow: auto;
+        max-height: 62vh;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: #fff;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 920px;
+    }
+    th, td {
+        padding: 7px 10px;
+        border-bottom: 1px solid #edf1f5;
+        text-align: left;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+    th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: var(--accent-soft);
+        border-bottom: 1px solid #c8dce2;
+        font-weight: 700;
+    }
+    tbody tr:nth-child(even) {
+        background: #fbfdff;
+    }
+    .note {
+        color: var(--muted);
+        font-size: 12px;
+        margin-top: 8px;
+    }
+</style>
+                
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+<h1>PowerSwitch Comparison Report</h1>
+<div class="meta">
+<div><strong>Generated:</strong> 2026-07-21 11:18:12</div>
+<div><strong>Current File:</strong> 20260721 Powerswitch Output AllRows.xlsx</div>
+<div><strong>Baseline File:</strong> Expected Output.xlsx</div>
+</div>
+</section>
+<section class="section">
+<h2>Overview</h2>
+<div class="controls">
+<input id="search_1" type="text" placeholder="Filter this table..." oninput="filterTable('table_1', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_1">
+<thead><tr>
+<th>Metric</th>
+<th>Current</th>
+<th>Baseline</th>
+<th>Delta</th>
+<th>Delta %</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Total output rows</td>
+<td>5,969</td>
+<td>5,695</td>
+<td>274</td>
+<td>4.81%</td>
+</tr>
+<tr>
+<td>Offer rows (excluding No Plans)</td>
+<td>5,969</td>
+<td>5,695</td>
+<td>274</td>
+<td>4.81%</td>
+</tr>
+<tr>
+<td>No Plans placeholder rows</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>Unique scenarios</td>
+<td>384</td>
+<td>383</td>
+<td>1</td>
+<td>0.26%</td>
+</tr>
+<tr>
+<td>Unique retailers</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Unique regions</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Unique areas</td>
+<td>49</td>
+<td>49</td>
+<td>0</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Average estimated yearly cost</td>
+<td>3,942.81</td>
+<td>3,969.13</td>
+<td>-26.32</td>
+<td>-0.66%</td>
+</tr>
+<tr>
+<td>Median estimated yearly cost</td>
+<td>3,732</td>
+<td>3,729</td>
+<td>3</td>
+<td>0.08%</td>
+</tr>
+<tr>
+<td>Minimum estimated yearly cost</td>
+<td>1,343</td>
+<td>1,901</td>
+<td>-558</td>
+<td>-29.35%</td>
+</tr>
+<tr>
+<td>Maximum estimated yearly cost</td>
+<td>7,604</td>
+<td>38,318</td>
+<td>-30,714</td>
+<td>-80.16%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 11</div>
+</section>
+<section class="section">
+<h2>Rankings_Retailer</h2>
+<div class="controls">
+<input id="search_2" type="text" placeholder="Filter this table..." oninput="filterTable('table_2', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_2">
+<thead><tr>
+<th>Current Rank</th>
+<th>Baseline Rank</th>
+<th>Rank Change</th>
+<th>Retailer</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>Contact Energy</td>
+<td>1,690</td>
+<td>1,686</td>
+<td>4</td>
+<td>$4,061.63</td>
+<td>$4,065.55</td>
+<td>$-3.92</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>Electric Kiwi</td>
+<td>1,080</td>
+<td>1,077</td>
+<td>3</td>
+<td>$3,969.83</td>
+<td>$3,974.61</td>
+<td>$-4.78</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>3</td>
+<td>Genesis Energy</td>
+<td>850</td>
+<td>431</td>
+<td>419</td>
+<td>$3,826.73</td>
+<td>$3,862.08</td>
+<td>$-35.35</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3</td>
+<td>-1</td>
+<td>Mercury</td>
+<td>836</td>
+<td>835</td>
+<td>1</td>
+<td>$3,966.00</td>
+<td>$3,968.07</td>
+<td>$-2.07</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>Meridian Energy</td>
+<td>470</td>
+<td>461</td>
+<td>9</td>
+<td>$3,855.60</td>
+<td>$3,860.61</td>
+<td>$-5.01</td>
+</tr>
+<tr>
+<td>6</td>
+<td>7</td>
+<td>1</td>
+<td>Pulse Energy</td>
+<td>404</td>
+<td>404</td>
+<td>0</td>
+<td>$4,079.92</td>
+<td>$4,079.92</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>7</td>
+<td>4</td>
+<td>-3</td>
+<td>Powershop</td>
+<td>308</td>
+<td>471</td>
+<td>-163</td>
+<td>$3,565.68</td>
+<td>$3,841.23</td>
+<td>$-275.56</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>Octopus Energy</td>
+<td>293</td>
+<td>292</td>
+<td>1</td>
+<td>$3,820.01</td>
+<td>$3,825.45</td>
+<td>$-5.45</td>
+</tr>
+<tr>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+<td>Toast Electric</td>
+<td>24</td>
+<td>24</td>
+<td>0</td>
+<td>$3,725.12</td>
+<td>$3,725.12</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>Hanergy</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>$3,387.93</td>
+<td>$3,387.93</td>
+<td>$0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 10</div>
+</section>
+<section class="section">
+<h2>Compare_Region</h2>
+<div class="controls">
+<input id="search_3" type="text" placeholder="Filter this table..." oninput="filterTable('table_3', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_3">
+<thead><tr>
+<th>Region</th>
+<th>Current Scenarios</th>
+<th>Baseline Scenarios</th>
+<th>Scenario Delta</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current No Plans Scenarios</th>
+<th>Baseline No Plans Scenarios</th>
+<th>No Plans Scenario Delta</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+<th>Current Median Cost</th>
+<th>Baseline Median Cost</th>
+<th>Median Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Otago</td>
+<td>76</td>
+<td>76</td>
+<td>0</td>
+<td>1,166</td>
+<td>1,100</td>
+<td>66</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,341.19</td>
+<td>$4,346.14</td>
+<td>$-4.95</td>
+<td>$4,169.50</td>
+<td>$4,031.50</td>
+<td>$138.00</td>
+</tr>
+<tr>
+<td>Southland</td>
+<td>48</td>
+<td>48</td>
+<td>0</td>
+<td>896</td>
+<td>868</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,072.43</td>
+<td>$4,103.18</td>
+<td>$-30.75</td>
+<td>$3,740.00</td>
+<td>$3,740.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Canterbury</td>
+<td>48</td>
+<td>48</td>
+<td>0</td>
+<td>785</td>
+<td>735</td>
+<td>50</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,802.94</td>
+<td>$3,773.76</td>
+<td>$29.18</td>
+<td>$3,744.00</td>
+<td>$3,487.00</td>
+<td>$257.00</td>
+</tr>
+<tr>
+<td>Eastland</td>
+<td>32</td>
+<td>32</td>
+<td>0</td>
+<td>450</td>
+<td>440</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,822.88</td>
+<td>$3,818.28</td>
+<td>$4.59</td>
+<td>$3,276.50</td>
+<td>$3,659.50</td>
+<td>$-383.00</td>
+</tr>
+<tr>
+<td>Auckland</td>
+<td>24</td>
+<td>23</td>
+<td>1</td>
+<td>384</td>
+<td>348</td>
+<td>36</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,480.13</td>
+<td>$3,533.61</td>
+<td>$-53.48</td>
+<td>$3,352.00</td>
+<td>$3,823.00</td>
+<td>$-471.00</td>
+</tr>
+<tr>
+<td>Bay of Plenty</td>
+<td>24</td>
+<td>24</td>
+<td>0</td>
+<td>368</td>
+<td>368</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,521.81</td>
+<td>$3,879.77</td>
+<td>$-357.96</td>
+<td>$3,880.50</td>
+<td>$3,880.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Central North Island</td>
+<td>22</td>
+<td>22</td>
+<td>0</td>
+<td>358</td>
+<td>358</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,099.65</td>
+<td>$4,088.70</td>
+<td>$10.94</td>
+<td>$3,526.50</td>
+<td>$3,526.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Waikato</td>
+<td>24</td>
+<td>24</td>
+<td>0</td>
+<td>326</td>
+<td>304</td>
+<td>22</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,685.22</td>
+<td>$3,701.12</td>
+<td>$-15.90</td>
+<td>$3,872.50</td>
+<td>$3,872.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Marlborough</td>
+<td>22</td>
+<td>22</td>
+<td>0</td>
+<td>318</td>
+<td>318</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,695.31</td>
+<td>$3,662.47</td>
+<td>$32.84</td>
+<td>$3,311.00</td>
+<td>$3,311.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Wellington</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>254</td>
+<td>238</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,708.01</td>
+<td>$3,722.10</td>
+<td>$-14.09</td>
+<td>$3,354.00</td>
+<td>$3,354.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Northland</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>228</td>
+<td>222</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,799.67</td>
+<td>$3,758.36</td>
+<td>$41.31</td>
+<td>$3,936.50</td>
+<td>$3,675.50</td>
+<td>$261.00</td>
+</tr>
+<tr>
+<td>Westland</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>212</td>
+<td>184</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,474.97</td>
+<td>$4,566.93</td>
+<td>$-91.97</td>
+<td>$3,630.50</td>
+<td>$4,411.50</td>
+<td>$-781.00</td>
+</tr>
+<tr>
+<td>Taranaki</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>112</td>
+<td>108</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,061.42</td>
+<td>$4,045.78</td>
+<td>$15.64</td>
+<td>$3,952.50</td>
+<td>$3,165.50</td>
+<td>$787.00</td>
+</tr>
+<tr>
+<td>Whanganui</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>112</td>
+<td>104</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,839.20</td>
+<td>$3,842.55</td>
+<td>$-3.35</td>
+<td>$3,793.00</td>
+<td>$3,793.00</td>
+<td>$0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 14</div>
+</section>
+<section class="section">
+<h2>Compare_Area</h2>
+<div class="controls">
+<input id="search_4" type="text" placeholder="Filter this table..." oninput="filterTable('table_4', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_4">
+<thead><tr>
+<th>Area</th>
+<th>Current Scenarios</th>
+<th>Baseline Scenarios</th>
+<th>Scenario Delta</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current No Plans Scenarios</th>
+<th>Baseline No Plans Scenarios</th>
+<th>No Plans Scenario Delta</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+<th>Current Median Cost</th>
+<th>Baseline Median Cost</th>
+<th>Median Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>156</td>
+<td>152</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,356.92</td>
+<td>$4,381.05</td>
+<td>$-24.13</td>
+<td>$3,826.00</td>
+<td>$3,826.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>154</td>
+<td>150</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,440.44</td>
+<td>$4,469.74</td>
+<td>$-29.30</td>
+<td>$3,858.00</td>
+<td>$3,858.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>148</td>
+<td>144</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,037.70</td>
+<td>$4,071.63</td>
+<td>$-33.94</td>
+<td>$3,493.50</td>
+<td>$3,493.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Invercargill (20 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>146</td>
+<td>140</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,846.29</td>
+<td>$3,868.15</td>
+<td>$-21.86</td>
+<td>$3,261.00</td>
+<td>$3,261.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Invercargill (8 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>146</td>
+<td>140</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,599.12</td>
+<td>$3,622.97</td>
+<td>$-23.85</td>
+<td>$3,088.50</td>
+<td>$3,088.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>146</td>
+<td>142</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,114.97</td>
+<td>$4,155.70</td>
+<td>$-40.72</td>
+<td>$3,663.00</td>
+<td>$3,663.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>King Country (High Density)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>144</td>
+<td>144</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,994.10</td>
+<td>$3,993.79</td>
+<td>$0.31</td>
+<td>$3,236.50</td>
+<td>$3,236.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Queenstown (15 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>142</td>
+<td>132</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,198.27</td>
+<td>$4,200.73</td>
+<td>$-2.46</td>
+<td>$4,569.00</td>
+<td>$3,988.50</td>
+<td>$580.50</td>
+</tr>
+<tr>
+<td>Central Otago (15 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>140</td>
+<td>132</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,860.14</td>
+<td>$4,868.38</td>
+<td>$-8.24</td>
+<td>$4,637.00</td>
+<td>$4,637.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Christchurch</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>138</td>
+<td>126</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,596.30</td>
+<td>$3,599.20</td>
+<td>$-2.89</td>
+<td>$3,261.50</td>
+<td>$3,005.50</td>
+<td>$256.00</td>
+</tr>
+<tr>
+<td>North Canterbury</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>138</td>
+<td>124</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,123.37</td>
+<td>$4,102.30</td>
+<td>$21.07</td>
+<td>$4,469.50</td>
+<td>$4,343.50</td>
+<td>$126.00</td>
+</tr>
+<tr>
+<td>King Country (Low Density)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>136</td>
+<td>136</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,377.51</td>
+<td>$4,366.22</td>
+<td>$11.29</td>
+<td>$3,543.00</td>
+<td>$3,543.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Auckland North / West</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>134</td>
+<td>122</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,316.75</td>
+<td>$3,333.25</td>
+<td>$-16.49</td>
+<td>$3,155.50</td>
+<td>$3,155.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>South Canterbury (Urban)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>133</td>
+<td>120</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,923.74</td>
+<td>$3,896.47</td>
+<td>$27.27</td>
+<td>$4,226.00</td>
+<td>$3,791.50</td>
+<td>$434.50</td>
+</tr>
+<tr>
+<td>Levin</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>132</td>
+<td>124</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,049.34</td>
+<td>$4,066.31</td>
+<td>$-16.97</td>
+<td>$3,630.00</td>
+<td>$3,630.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>South Canterbury (Rural)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>131</td>
+<td>120</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,027.18</td>
+<td>$4,000.01</td>
+<td>$27.17</td>
+<td>$4,408.00</td>
+<td>$3,899.50</td>
+<td>$508.50</td>
+</tr>
+<tr>
+<td>Queenstown (8 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>130</td>
+<td>120</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,150.15</td>
+<td>$4,148.85</td>
+<td>$1.30</td>
+<td>$4,522.50</td>
+<td>$3,942.00</td>
+<td>$580.50</td>
+</tr>
+<tr>
+<td>Auckland Central / Manukau</td>
+<td>8</td>
+<td>7</td>
+<td>1</td>
+<td>128</td>
+<td>104</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,298.37</td>
+<td>$3,433.52</td>
+<td>$-135.15</td>
+<td>$3,159.00</td>
+<td>$3,943.50</td>
+<td>$-784.50</td>
+</tr>
+<tr>
+<td>Otago</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>127</td>
+<td>126</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,778.91</td>
+<td>$4,789.15</td>
+<td>$-10.24</td>
+<td>$3,887.00</td>
+<td>$4,561.50</td>
+<td>$-674.50</td>
+</tr>
+<tr>
+<td>Whangarei</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>126</td>
+<td>122</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,528.97</td>
+<td>$3,465.88</td>
+<td>$63.09</td>
+<td>$3,936.50</td>
+<td>$3,325.50</td>
+<td>$611.00</td>
+</tr>
+<tr>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>124</td>
+<td>124</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,589.13</td>
+<td>$3,569.19</td>
+<td>$19.94</td>
+<td>$3,282.50</td>
+<td>$3,282.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Rural Eastern Bay of Plenty</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>124</td>
+<td>124</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,515.94</td>
+<td>$4,049.31</td>
+<td>$-533.37</td>
+<td>$3,911.00</td>
+<td>$3,911.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Whakatane</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>124</td>
+<td>124</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,447.87</td>
+<td>$3,981.24</td>
+<td>$-533.37</td>
+<td>$3,265.00</td>
+<td>$3,265.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Pukekohe</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>122</td>
+<td>122</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,850.29</td>
+<td>$3,819.30</td>
+<td>$30.98</td>
+<td>$3,510.50</td>
+<td>$3,510.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Wellington City</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>122</td>
+<td>114</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,338.70</td>
+<td>$3,347.68</td>
+<td>$-8.99</td>
+<td>$3,135.00</td>
+<td>$3,135.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>121</td>
+<td>121</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,516.70</td>
+<td>$3,482.40</td>
+<td>$34.31</td>
+<td>$2,785.00</td>
+<td>$2,785.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Central Otago (8 kVA capacity)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>120</td>
+<td>112</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,805.48</td>
+<td>$4,811.29</td>
+<td>$-5.81</td>
+<td>$4,574.00</td>
+<td>$4,574.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Marlborough</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>120</td>
+<td>120</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,106.37</td>
+<td>$4,063.80</td>
+<td>$42.57</td>
+<td>$3,721.50</td>
+<td>$3,721.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Tauranga</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>120</td>
+<td>120</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,604.29</td>
+<td>$3,599.72</td>
+<td>$4.57</td>
+<td>$3,443.50</td>
+<td>$3,443.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Waipa</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>120</td>
+<td>112</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,830.80</td>
+<td>$3,850.97</td>
+<td>$-20.17</td>
+<td>$4,255.00</td>
+<td>$4,255.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Hamilton</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>116</td>
+<td>108</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,565.08</td>
+<td>$3,572.47</td>
+<td>$-7.39</td>
+<td>$3,350.00</td>
+<td>$3,350.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Hawke&#x27;s Bay</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>116</td>
+<td>116</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,569.41</td>
+<td>$3,554.77</td>
+<td>$14.65</td>
+<td>$3,971.00</td>
+<td>$3,971.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Nelson City</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>114</td>
+<td>114</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,408.54</td>
+<td>$3,389.28</td>
+<td>$19.25</td>
+<td>$3,084.50</td>
+<td>$3,084.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>114</td>
+<td>106</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,823.11</td>
+<td>$3,860.50</td>
+<td>$-37.39</td>
+<td>$2,932.00</td>
+<td>$3,677.50</td>
+<td>$-745.50</td>
+</tr>
+<tr>
+<td>Waitaki</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>113</td>
+<td>108</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,949.30</td>
+<td>$3,981.31</td>
+<td>$-32.00</td>
+<td>$3,339.00</td>
+<td>$3,915.50</td>
+<td>$-576.50</td>
+</tr>
+<tr>
+<td>Central Hawke&#x27;s Bay</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>112</td>
+<td>112</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,104.87</td>
+<td>$4,075.04</td>
+<td>$29.83</td>
+<td>$3,953.50</td>
+<td>$3,953.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Opunake</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>112</td>
+<td>108</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,061.42</td>
+<td>$4,045.78</td>
+<td>$15.64</td>
+<td>$3,952.50</td>
+<td>$3,165.50</td>
+<td>$787.00</td>
+</tr>
+<tr>
+<td>Palmerston North</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>112</td>
+<td>104</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,839.20</td>
+<td>$3,842.55</td>
+<td>$-3.35</td>
+<td>$3,793.00</td>
+<td>$3,793.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Westland</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>112</td>
+<td>98</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,524.10</td>
+<td>$4,620.62</td>
+<td>$-96.52</td>
+<td>$3,631.50</td>
+<td>$4,471.50</td>
+<td>$-840.00</td>
+</tr>
+<tr>
+<td>Eastland (High Density)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>108</td>
+<td>106</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,802.44</td>
+<td>$3,793.16</td>
+<td>$9.27</td>
+<td>$3,040.50</td>
+<td>$3,040.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Northern Northland</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>102</td>
+<td>100</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,134.07</td>
+<td>$4,115.19</td>
+<td>$18.88</td>
+<td>$3,984.00</td>
+<td>$3,984.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Buller</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>100</td>
+<td>86</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,419.94</td>
+<td>$4,505.76</td>
+<td>$-85.82</td>
+<td>$3,630.50</td>
+<td>$4,406.00</td>
+<td>$-775.50</td>
+</tr>
+<tr>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>100</td>
+<td>92</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,205.74</td>
+<td>$4,175.39</td>
+<td>$30.35</td>
+<td>$4,047.50</td>
+<td>$4,047.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>100</td>
+<td>92</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,064.75</td>
+<td>$4,050.47</td>
+<td>$14.28</td>
+<td>$3,975.50</td>
+<td>$3,975.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Dunedin (15 kVA capacity)</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td>98</td>
+<td>94</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,070.39</td>
+<td>$4,072.70</td>
+<td>$-2.31</td>
+<td>$3,754.50</td>
+<td>$3,754.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Dunedin (8 kVA capacity)</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td>96</td>
+<td>92</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$4,061.84</td>
+<td>$4,063.84</td>
+<td>$-1.99</td>
+<td>$3,837.00</td>
+<td>$3,837.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Thames Valley Whangamata</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>90</td>
+<td>84</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,645.96</td>
+<td>$3,666.71</td>
+<td>$-20.76</td>
+<td>$3,526.50</td>
+<td>$3,526.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Tasman / Nelson Districts</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td>84</td>
+<td>84</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,497.29</td>
+<td>$3,459.92</td>
+<td>$37.37</td>
+<td>$3,114.50</td>
+<td>$3,114.50</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>Taupo</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td>78</td>
+<td>78</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,810.03</td>
+<td>$3,780.05</td>
+<td>$29.97</td>
+<td>$3,625.50</td>
+<td>$3,625.50</td>
+<td>$0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 49</div>
+</section>
+<section class="section">
+<h2>Compare_People</h2>
+<div class="controls">
+<input id="search_5" type="text" placeholder="Filter this table..." oninput="filterTable('table_5', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_5">
+<thead><tr>
+<th>People</th>
+<th>Current Scenarios</th>
+<th>Baseline Scenarios</th>
+<th>Scenario Delta</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current No Plans Scenarios</th>
+<th>Baseline No Plans Scenarios</th>
+<th>No Plans Scenario Delta</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+<th>Current Median Cost</th>
+<th>Baseline Median Cost</th>
+<th>Median Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1-2 people</td>
+<td>192</td>
+<td>191</td>
+<td>1</td>
+<td>2,988</td>
+<td>2,854</td>
+<td>134</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$2,791.32</td>
+<td>$2,797.67</td>
+<td>$-6.36</td>
+<td>$2,753.00</td>
+<td>$2,762.00</td>
+<td>$-9.00</td>
+</tr>
+<tr>
+<td>5+ people</td>
+<td>192</td>
+<td>192</td>
+<td>0</td>
+<td>2,981</td>
+<td>2,841</td>
+<td>140</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$5,097.00</td>
+<td>$5,145.94</td>
+<td>$-48.94</td>
+<td>$5,046.00</td>
+<td>$5,045.00</td>
+<td>$1.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 2</div>
+</section>
+<section class="section">
+<h2>Compare_Water</h2>
+<div class="controls">
+<input id="search_6" type="text" placeholder="Filter this table..." oninput="filterTable('table_6', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_6">
+<thead><tr>
+<th>Water heating</th>
+<th>Current Scenarios</th>
+<th>Baseline Scenarios</th>
+<th>Scenario Delta</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current No Plans Scenarios</th>
+<th>Baseline No Plans Scenarios</th>
+<th>No Plans Scenario Delta</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+<th>Current Median Cost</th>
+<th>Baseline Median Cost</th>
+<th>Median Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Electric hot water cylinder</td>
+<td>196</td>
+<td>196</td>
+<td>0</td>
+<td>3,066</td>
+<td>2,952</td>
+<td>114</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,919.59</td>
+<td>$3,912.31</td>
+<td>$7.28</td>
+<td>$3,682.00</td>
+<td>$3,678.00</td>
+<td>$4.00</td>
+</tr>
+<tr>
+<td>Electric continuous hot water</td>
+<td>188</td>
+<td>187</td>
+<td>1</td>
+<td>2,903</td>
+<td>2,743</td>
+<td>160</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,967.33</td>
+<td>$4,030.27</td>
+<td>$-62.94</td>
+<td>$3,784.00</td>
+<td>$3,780.00</td>
+<td>$4.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 2</div>
+</section>
+<section class="section">
+<h2>Compare_Heating</h2>
+<div class="controls">
+<input id="search_7" type="text" placeholder="Filter this table..." oninput="filterTable('table_7', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_7">
+<thead><tr>
+<th>General heating</th>
+<th>Current Scenarios</th>
+<th>Baseline Scenarios</th>
+<th>Scenario Delta</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current No Plans Scenarios</th>
+<th>Baseline No Plans Scenarios</th>
+<th>No Plans Scenario Delta</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+<th>Current Median Cost</th>
+<th>Baseline Median Cost</th>
+<th>Median Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Heat pump</td>
+<td>196</td>
+<td>196</td>
+<td>0</td>
+<td>3,078</td>
+<td>2,934</td>
+<td>144</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,895.16</td>
+<td>$3,912.98</td>
+<td>$-17.82</td>
+<td>$3,564.00</td>
+<td>$3,554.50</td>
+<td>$9.50</td>
+</tr>
+<tr>
+<td>Night store heater</td>
+<td>188</td>
+<td>187</td>
+<td>1</td>
+<td>2,891</td>
+<td>2,761</td>
+<td>130</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>$3,993.53</td>
+<td>$4,028.79</td>
+<td>$-35.26</td>
+<td>$3,754.00</td>
+<td>$3,754.00</td>
+<td>$0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 2</div>
+</section>
+<section class="section">
+<h2>Scenario_Compare</h2>
+<div class="controls">
+<input id="search_8" type="text" placeholder="Filter this table..." oninput="filterTable('table_8', this.value)" />
+</div>
+<div class="table-wrap">
+<table id="table_8">
+<thead><tr>
+<th>Network Code</th>
+<th>Subnetwork</th>
+<th>Region</th>
+<th>Area</th>
+<th>People</th>
+<th>Water heating</th>
+<th>General heating</th>
+<th>Current Offer Rows</th>
+<th>Baseline Offer Rows</th>
+<th>Offer Row Delta</th>
+<th>Current Has No Plans</th>
+<th>Baseline Has No Plans</th>
+<th>Current Avg Cost</th>
+<th>Baseline Avg Cost</th>
+<th>Avg Cost Delta</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>29</td>
+<td>29</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,859.83</td>
+<td>$2,860.21</td>
+<td>$-0.38</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>29</td>
+<td>29</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,628.31</td>
+<td>$2,636.10</td>
+<td>$-7.79</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>28</td>
+<td>29</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,309.36</td>
+<td>$3,306.07</td>
+<td>$3.29</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>28</td>
+<td>29</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,216.36</td>
+<td>$3,207.48</td>
+<td>$8.87</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>28</td>
+<td>29</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,944.93</td>
+<td>$2,954.07</td>
+<td>$-9.14</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>27</td>
+<td>28</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,014.19</td>
+<td>$3,031.29</td>
+<td>$-17.10</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>25</td>
+<td>25</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,042.72</td>
+<td>$5,039.92</td>
+<td>$2.80</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>25</td>
+<td>25</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,765.24</td>
+<td>$4,771.80</td>
+<td>$-6.56</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>24</td>
+<td>25</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,725.08</td>
+<td>$5,721.56</td>
+<td>$3.52</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>24</td>
+<td>25</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,346.21</td>
+<td>$5,375.04</td>
+<td>$-28.83</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>24</td>
+<td>25</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,626.96</td>
+<td>$5,618.40</td>
+<td>$8.56</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>24</td>
+<td>25</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,285.83</td>
+<td>$5,307.12</td>
+<td>$-21.29</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>23</td>
+<td>22</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,226.13</td>
+<td>$3,217.86</td>
+<td>$8.27</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>23</td>
+<td>22</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,172.65</td>
+<td>$6,154.00</td>
+<td>$18.65</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>23</td>
+<td>22</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,760.57</td>
+<td>$2,760.41</td>
+<td>$0.16</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>23</td>
+<td>22</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,167.30</td>
+<td>$5,165.09</td>
+<td>$2.21</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>21</td>
+<td>21</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,114.14</td>
+<td>$3,110.14</td>
+<td>$4.00</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>21</td>
+<td>21</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,227.24</td>
+<td>$3,232.52</td>
+<td>$-5.29</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,802.20</td>
+<td>$2,803.35</td>
+<td>$-1.15</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,894.60</td>
+<td>$2,905.90</td>
+<td>$-11.30</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,152.50</td>
+<td>$5,142.95</td>
+<td>$9.55</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,288.45</td>
+<td>$5,296.40</td>
+<td>$-7.95</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,746.79</td>
+<td>$2,745.83</td>
+<td>$0.96</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,197.05</td>
+<td>$5,196.00</td>
+<td>$1.05</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>20</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,512.26</td>
+<td>$2,497.35</td>
+<td>$14.91</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>20</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,623.16</td>
+<td>$4,587.85</td>
+<td>$35.31</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>20</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,472.89</td>
+<td>$2,438.95</td>
+<td>$33.94</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>19</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,582.47</td>
+<td>$5,559.58</td>
+<td>$22.89</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>19</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,719.00</td>
+<td>$5,713.68</td>
+<td>$5.32</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>17</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,010.68</td>
+<td>$4,960.94</td>
+<td>$49.74</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>16</td>
+<td>3</td>
+<td>No</td>
+<td>No</td>
+<td>$2,570.74</td>
+<td>$2,597.81</td>
+<td>$-27.08</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>19</td>
+<td>16</td>
+<td>3</td>
+<td>No</td>
+<td>No</td>
+<td>$4,724.21</td>
+<td>$4,771.75</td>
+<td>$-47.54</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,117.53</td>
+<td>$3,126.11</td>
+<td>$-8.58</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,611.84</td>
+<td>$5,627.17</td>
+<td>$-15.32</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,057.74</td>
+<td>$3,062.78</td>
+<td>$-5.04</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,525.53</td>
+<td>$5,539.28</td>
+<td>$-13.75</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,338.89</td>
+<td>$2,349.17</td>
+<td>$-10.27</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>19</td>
+<td>18</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,214.32</td>
+<td>$4,221.78</td>
+<td>$-7.46</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>15</td>
+<td>3</td>
+<td>No</td>
+<td>No</td>
+<td>$4,844.56</td>
+<td>$4,891.07</td>
+<td>$-46.51</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>15</td>
+<td>3</td>
+<td>No</td>
+<td>No</td>
+<td>$5,058.89</td>
+<td>$5,133.00</td>
+<td>$-74.11</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>18</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,772.50</td>
+<td>$2,760.67</td>
+<td>$11.83</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>18</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,175.56</td>
+<td>$5,147.22</td>
+<td>$28.33</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>18</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,775.28</td>
+<td>$2,763.44</td>
+<td>$11.83</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>18</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,223.83</td>
+<td>$5,195.50</td>
+<td>$28.33</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>19</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,556.89</td>
+<td>$4,501.16</td>
+<td>$55.73</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,670.22</td>
+<td>$2,675.82</td>
+<td>$-5.60</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,816.33</td>
+<td>$4,823.94</td>
+<td>$-7.61</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,479.28</td>
+<td>$2,485.59</td>
+<td>$-6.31</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,536.67</td>
+<td>$4,541.59</td>
+<td>$-4.92</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>18</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,809.94</td>
+<td>$2,807.56</td>
+<td>$2.39</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>16</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,883.17</td>
+<td>$2,859.00</td>
+<td>$24.17</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>19</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,490.00</td>
+<td>$3,460.74</td>
+<td>$29.26</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>18</td>
+<td>19</td>
+<td>-1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,348.17</td>
+<td>$6,304.21</td>
+<td>$43.96</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,230.22</td>
+<td>$5,246.82</td>
+<td>$-16.60</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,804.72</td>
+<td>$2,809.65</td>
+<td>$-4.92</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,153.00</td>
+<td>$5,167.12</td>
+<td>$-14.12</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,346.22</td>
+<td>$2,356.12</td>
+<td>$-9.90</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>18</td>
+<td>17</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,227.33</td>
+<td>$4,234.59</td>
+<td>$-7.25</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,015.71</td>
+<td>$5,032.93</td>
+<td>$-17.23</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,229.29</td>
+<td>$5,276.33</td>
+<td>$-47.04</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,947.06</td>
+<td>$4,928.80</td>
+<td>$18.26</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,039.71</td>
+<td>$5,037.47</td>
+<td>$2.24</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,848.76</td>
+<td>$4,817.40</td>
+<td>$31.36</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,368.59</td>
+<td>$2,377.38</td>
+<td>$-8.79</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,253.71</td>
+<td>$4,268.50</td>
+<td>$-14.79</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,732.29</td>
+<td>$2,722.65</td>
+<td>$9.65</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,719.82</td>
+<td>$2,717.47</td>
+<td>$2.35</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,055.82</td>
+<td>$5,026.65</td>
+<td>$29.18</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,031.65</td>
+<td>$5,015.88</td>
+<td>$15.76</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,554.71</td>
+<td>$5,604.60</td>
+<td>$-49.89</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,883.82</td>
+<td>$5,993.53</td>
+<td>$-109.71</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,503.76</td>
+<td>$2,499.65</td>
+<td>$4.12</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,631.88</td>
+<td>$4,618.71</td>
+<td>$13.18</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,459.53</td>
+<td>$2,443.12</td>
+<td>$16.41</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,817.76</td>
+<td>$2,831.12</td>
+<td>$-13.36</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,939.12</td>
+<td>$2,964.38</td>
+<td>$-25.26</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,788.94</td>
+<td>$2,797.25</td>
+<td>$-8.31</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,228.47</td>
+<td>$5,249.81</td>
+<td>$-21.34</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,428.41</td>
+<td>$5,471.50</td>
+<td>$-43.09</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,155.41</td>
+<td>$5,165.25</td>
+<td>$-9.84</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,350.35</td>
+<td>$6,335.41</td>
+<td>$-1,985.06</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,337.76</td>
+<td>$6,344.06</td>
+<td>$-2,006.29</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,925.76</td>
+<td>$2,924.33</td>
+<td>$1.43</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,125.65</td>
+<td>$3,132.00</td>
+<td>$-6.35</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,186.88</td>
+<td>$5,184.27</td>
+<td>$2.62</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>15</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,453.71</td>
+<td>$5,470.80</td>
+<td>$-17.09</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,240.76</td>
+<td>$5,160.81</td>
+<td>$79.95</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,600.88</td>
+<td>$4,569.88</td>
+<td>$31.01</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,466.00</td>
+<td>$4,441.81</td>
+<td>$24.19</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,477.18</td>
+<td>$2,478.76</td>
+<td>$-1.59</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,610.65</td>
+<td>$2,622.41</td>
+<td>$-11.76</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,542.24</td>
+<td>$4,547.94</td>
+<td>$-5.70</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,776.18</td>
+<td>$4,794.69</td>
+<td>$-18.51</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,873.47</td>
+<td>$2,884.50</td>
+<td>$-11.03</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,060.94</td>
+<td>$3,088.19</td>
+<td>$-27.25</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,377.59</td>
+<td>$3,440.69</td>
+<td>$-63.10</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,423.65</td>
+<td>$2,432.19</td>
+<td>$-8.54</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,373.65</td>
+<td>$4,376.75</td>
+<td>$-3.10</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,413.71</td>
+<td>$2,422.75</td>
+<td>$-9.04</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,357.41</td>
+<td>$4,360.88</td>
+<td>$-3.46</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,074.65</td>
+<td>$5,102.31</td>
+<td>$-27.67</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>17</td>
+<td>16</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,024.06</td>
+<td>$5,062.62</td>
+<td>$-38.57</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,856.12</td>
+<td>$2,876.07</td>
+<td>$-19.94</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,047.50</td>
+<td>$3,077.53</td>
+<td>$-30.03</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,802.19</td>
+<td>$2,809.93</td>
+<td>$-7.75</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,778.19</td>
+<td>$2,792.80</td>
+<td>$-14.61</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,963.62</td>
+<td>$2,988.00</td>
+<td>$-24.38</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,736.19</td>
+<td>$2,739.47</td>
+<td>$-3.28</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,872.12</td>
+<td>$2,881.67</td>
+<td>$-9.54</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Urban)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,972.81</td>
+<td>$4,928.40</td>
+<td>$44.41</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,955.75</td>
+<td>$2,951.50</td>
+<td>$4.25</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,556.00</td>
+<td>$5,542.31</td>
+<td>$13.69</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,367.44</td>
+<td>$2,370.13</td>
+<td>$-2.70</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,421.06</td>
+<td>$2,425.27</td>
+<td>$-4.20</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,243.31</td>
+<td>$4,245.27</td>
+<td>$-1.95</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,331.19</td>
+<td>$4,337.27</td>
+<td>$-6.08</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,705.00</td>
+<td>$2,679.69</td>
+<td>$25.31</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,957.38</td>
+<td>$4,891.69</td>
+<td>$65.69</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,321.56</td>
+<td>$3,333.80</td>
+<td>$-12.24</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,560.81</td>
+<td>$3,594.20</td>
+<td>$-33.39</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,408.38</td>
+<td>$6,432.00</td>
+<td>$-23.62</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,838.31</td>
+<td>$6,901.67</td>
+<td>$-63.35</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,952.94</td>
+<td>$2,976.33</td>
+<td>$-23.40</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,590.69</td>
+<td>$5,637.27</td>
+<td>$-46.58</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,935.62</td>
+<td>$2,953.33</td>
+<td>$-17.71</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,125.25</td>
+<td>$3,169.53</td>
+<td>$-44.28</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,423.88</td>
+<td>$5,458.64</td>
+<td>$-34.77</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,763.12</td>
+<td>$5,863.43</td>
+<td>$-100.30</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,510.81</td>
+<td>$2,497.19</td>
+<td>$13.62</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,649.44</td>
+<td>$4,615.06</td>
+<td>$34.38</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,463.56</td>
+<td>$2,436.81</td>
+<td>$26.75</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,568.69</td>
+<td>$4,541.56</td>
+<td>$27.12</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,729.12</td>
+<td>$2,727.38</td>
+<td>$1.75</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,718.50</td>
+<td>$2,722.44</td>
+<td>$-3.94</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,791.38</td>
+<td>$2,783.19</td>
+<td>$8.19</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,913.88</td>
+<td>$4,895.62</td>
+<td>$18.25</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,898.06</td>
+<td>$4,890.19</td>
+<td>$7.88</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,514.00</td>
+<td>$2,511.19</td>
+<td>$2.81</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,492.00</td>
+<td>$2,496.38</td>
+<td>$-4.38</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,664.50</td>
+<td>$4,651.31</td>
+<td>$13.19</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,627.88</td>
+<td>$4,627.81</td>
+<td>$0.06</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,614.19</td>
+<td>$4,577.62</td>
+<td>$36.56</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,548.88</td>
+<td>$4,525.62</td>
+<td>$23.25</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,540.06</td>
+<td>$4,521.69</td>
+<td>$18.38</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,414.62</td>
+<td>$2,387.75</td>
+<td>$26.88</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,410.69</td>
+<td>$2,386.25</td>
+<td>$24.44</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,341.56</td>
+<td>$6,450.69</td>
+<td>$-2,109.12</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,335.94</td>
+<td>$6,467.62</td>
+<td>$-2,131.69</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,861.62</td>
+<td>$2,871.31</td>
+<td>$-9.69</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,207.62</td>
+<td>$5,185.25</td>
+<td>$22.38</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,881.75</td>
+<td>$2,865.19</td>
+<td>$16.56</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,018.69</td>
+<td>$3,004.00</td>
+<td>$14.69</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,128.81</td>
+<td>$5,080.00</td>
+<td>$48.81</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,315.50</td>
+<td>$5,269.38</td>
+<td>$46.12</td>
+</tr>
+<tr>
+<td>MPOW</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>North Canterbury</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,066.75</td>
+<td>$3,024.07</td>
+<td>$42.68</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,511.12</td>
+<td>$2,502.25</td>
+<td>$8.88</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,422.62</td>
+<td>$2,416.25</td>
+<td>$6.38</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,595.31</td>
+<td>$4,524.73</td>
+<td>$70.58</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,484.12</td>
+<td>$2,502.79</td>
+<td>$-18.66</td>
+</tr>
+<tr>
+<td>ORON</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Christchurch</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,564.62</td>
+<td>$4,596.07</td>
+<td>$-31.45</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,218.69</td>
+<td>$3,226.60</td>
+<td>$-7.91</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,421.75</td>
+<td>$3,469.60</td>
+<td>$-47.85</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,521.06</td>
+<td>$2,522.25</td>
+<td>$-1.19</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,509.44</td>
+<td>$2,517.81</td>
+<td>$-8.38</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,647.00</td>
+<td>$4,640.62</td>
+<td>$6.38</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,625.44</td>
+<td>$4,632.19</td>
+<td>$-6.75</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,566.88</td>
+<td>$2,583.53</td>
+<td>$-16.66</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,731.06</td>
+<td>$4,762.87</td>
+<td>$-31.80</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,933.81</td>
+<td>$2,928.31</td>
+<td>$5.50</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,824.88</td>
+<td>$2,824.25</td>
+<td>$0.62</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,519.19</td>
+<td>$5,493.38</td>
+<td>$25.81</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,353.44</td>
+<td>$5,337.50</td>
+<td>$15.94</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,119.25</td>
+<td>$3,150.60</td>
+<td>$-31.35</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,442.81</td>
+<td>$3,512.60</td>
+<td>$-69.79</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,488.75</td>
+<td>$5,538.47</td>
+<td>$-49.72</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,943.25</td>
+<td>$6,064.13</td>
+<td>$-120.88</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,458.81</td>
+<td>$5,506.60</td>
+<td>$-47.79</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,918.56</td>
+<td>$6,036.33</td>
+<td>$-117.77</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,297.88</td>
+<td>$2,318.00</td>
+<td>$-20.12</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,406.00</td>
+<td>$2,426.57</td>
+<td>$-20.57</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,124.12</td>
+<td>$4,154.29</td>
+<td>$-30.16</td>
+</tr>
+<tr>
+<td>UNET</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland North / West</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>14</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,332.44</td>
+<td>$4,363.36</td>
+<td>$-30.92</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,514.94</td>
+<td>$2,522.87</td>
+<td>$-7.93</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,622.12</td>
+<td>$2,632.53</td>
+<td>$-10.41</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,502.50</td>
+<td>$4,515.80</td>
+<td>$-13.30</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,666.31</td>
+<td>$4,685.20</td>
+<td>$-18.89</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,666.00</td>
+<td>$2,680.73</td>
+<td>$-14.73</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,640.69</td>
+<td>$2,661.80</td>
+<td>$-21.11</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>16</td>
+<td>15</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,922.75</td>
+<td>$4,924.47</td>
+<td>$-1.72</td>
+</tr>
+<tr>
+<td>ALPE</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>South Canterbury (Rural)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,955.13</td>
+<td>$2,961.00</td>
+<td>$-5.87</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,022.27</td>
+<td>$3,135.69</td>
+<td>$-113.43</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,531.33</td>
+<td>$5,734.00</td>
+<td>$-202.67</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,795.67</td>
+<td>$2,789.53</td>
+<td>$6.13</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,874.93</td>
+<td>$2,847.73</td>
+<td>$27.20</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,234.93</td>
+<td>$5,222.00</td>
+<td>$12.93</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,334.73</td>
+<td>$5,269.67</td>
+<td>$65.07</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,243.87</td>
+<td>$3,240.93</td>
+<td>$2.94</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,234.93</td>
+<td>$6,224.79</td>
+<td>$10.15</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,254.33</td>
+<td>$3,262.64</td>
+<td>$-8.31</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,500.33</td>
+<td>$3,531.79</td>
+<td>$-31.45</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,193.40</td>
+<td>$3,186.86</td>
+<td>$6.54</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,151.27</td>
+<td>$3,132.93</td>
+<td>$18.34</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,306.13</td>
+<td>$6,324.14</td>
+<td>$-18.01</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,749.20</td>
+<td>$6,810.71</td>
+<td>$-61.51</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,162.53</td>
+<td>$6,147.21</td>
+<td>$15.32</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Clyde &amp; Cromwell</td>
+<td>Otago</td>
+<td>Central Otago (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,126.60</td>
+<td>$6,094.00</td>
+<td>$32.60</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,761.60</td>
+<td>$2,765.07</td>
+<td>$-3.47</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,180.73</td>
+<td>$5,184.07</td>
+<td>$-3.34</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,911.13</td>
+<td>$2,933.21</td>
+<td>$-22.08</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,742.87</td>
+<td>$2,745.00</td>
+<td>$-2.13</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,553.20</td>
+<td>$5,600.43</td>
+<td>$-47.23</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Dunedin</td>
+<td>Otago</td>
+<td>Dunedin (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,189.67</td>
+<td>$5,193.64</td>
+<td>$-3.98</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,828.47</td>
+<td>$2,831.64</td>
+<td>$-3.18</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (15 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,330.53</td>
+<td>$5,334.14</td>
+<td>$-3.61</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,851.67</td>
+<td>$2,864.64</td>
+<td>$-12.98</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,047.13</td>
+<td>$3,089.00</td>
+<td>$-41.87</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,789.93</td>
+<td>$2,790.36</td>
+<td>$-0.42</td>
+</tr>
+<tr>
+<td>DUNE</td>
+<td>Frankton</td>
+<td>Otago</td>
+<td>Queenstown (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,284.27</td>
+<td>$5,284.57</td>
+<td>$-0.30</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,566.33</td>
+<td>$4,515.67</td>
+<td>$50.67</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,996.80</td>
+<td>$4,962.00</td>
+<td>$34.80</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,813.47</td>
+<td>$2,819.79</td>
+<td>$-6.32</td>
+</tr>
+<tr>
+<td>ELEC</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Levin</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,214.87</td>
+<td>$5,219.79</td>
+<td>$-4.92</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Rotorua &amp; Taupo</td>
+<td>Central North Island</td>
+<td>Taupo</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,673.80</td>
+<td>$2,665.93</td>
+<td>$7.87</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Rotorua &amp; Taupo</td>
+<td>Central North Island</td>
+<td>Taupo</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,940.00</td>
+<td>$4,915.87</td>
+<td>$24.13</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,413.87</td>
+<td>$2,385.20</td>
+<td>$28.67</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,414.33</td>
+<td>$2,388.27</td>
+<td>$26.07</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,516.87</td>
+<td>$2,507.87</td>
+<td>$9.00</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,515.13</td>
+<td>$2,508.93</td>
+<td>$6.20</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,534.27</td>
+<td>$4,509.47</td>
+<td>$24.80</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Whakatane</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,533.13</td>
+<td>$4,513.53</td>
+<td>$19.60</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,136.47</td>
+<td>$3,126.13</td>
+<td>$10.33</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,662.27</td>
+<td>$5,621.27</td>
+<td>$41.00</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,944.27</td>
+<td>$2,918.67</td>
+<td>$25.60</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,215.20</td>
+<td>$5,144.40</td>
+<td>$70.80</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,374.87</td>
+<td>$2,366.93</td>
+<td>$7.93</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,477.33</td>
+<td>$2,475.67</td>
+<td>$1.67</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,283.67</td>
+<td>$4,259.87</td>
+<td>$23.80</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,452.60</td>
+<td>$4,441.00</td>
+<td>$11.60</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,518.40</td>
+<td>$2,500.20</td>
+<td>$18.20</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,434.20</td>
+<td>$4,362.21</td>
+<td>$71.99</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,974.40</td>
+<td>$5,951.67</td>
+<td>$22.73</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$6,309.80</td>
+<td>$6,323.27</td>
+<td>$-13.47</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,153.47</td>
+<td>$6,174.86</td>
+<td>$-21.39</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,574.73</td>
+<td>$2,568.33</td>
+<td>$6.40</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,747.87</td>
+<td>$4,723.27</td>
+<td>$24.60</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,605.13</td>
+<td>$2,617.71</td>
+<td>$-12.58</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,792.33</td>
+<td>$4,815.00</td>
+<td>$-22.67</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,652.07</td>
+<td>$2,657.57</td>
+<td>$-5.50</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,700.60</td>
+<td>$2,701.00</td>
+<td>$-0.40</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,896.53</td>
+<td>$4,901.71</td>
+<td>$-5.18</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,988.27</td>
+<td>$4,981.79</td>
+<td>$6.48</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,803.60</td>
+<td>$2,807.20</td>
+<td>$-3.60</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,869.00</td>
+<td>$2,863.73</td>
+<td>$5.27</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,261.73</td>
+<td>$5,283.93</td>
+<td>$-22.20</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,379.93</td>
+<td>$5,355.27</td>
+<td>$24.67</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,611.93</td>
+<td>$2,622.00</td>
+<td>$-10.07</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,601.47</td>
+<td>$2,622.43</td>
+<td>$-20.96</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,712.33</td>
+<td>$2,732.00</td>
+<td>$-19.67</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,940.13</td>
+<td>$4,957.50</td>
+<td>$-17.37</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,919.80</td>
+<td>$4,957.36</td>
+<td>$-37.56</td>
+</tr>
+<tr>
+<td>TASM</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Tasman / Nelson Districts</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,484.20</td>
+<td>$2,472.53</td>
+<td>$11.67</td>
+</tr>
+<tr>
+<td>TASM</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Tasman / Nelson Districts</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,488.60</td>
+<td>$4,452.60</td>
+<td>$36.00</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,887.20</td>
+<td>$2,868.80</td>
+<td>$18.40</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,369.07</td>
+<td>$5,310.93</td>
+<td>$58.13</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,794.60</td>
+<td>$2,823.79</td>
+<td>$-29.19</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,090.47</td>
+<td>$3,159.71</td>
+<td>$-69.25</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,094.93</td>
+<td>$5,146.71</td>
+<td>$-51.78</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Rural - 8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,560.07</td>
+<td>$5,691.86</td>
+<td>$-131.79</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,754.00</td>
+<td>$2,780.57</td>
+<td>$-26.57</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,044.33</td>
+<td>$3,110.43</td>
+<td>$-66.10</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,034.93</td>
+<td>$5,080.79</td>
+<td>$-45.85</td>
+</tr>
+<tr>
+<td>TPCO</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Southland (Urban - 8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,501.53</td>
+<td>$5,625.64</td>
+<td>$-124.11</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,518.87</td>
+<td>$2,519.86</td>
+<td>$-0.99</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,502.13</td>
+<td>$4,501.79</td>
+<td>$0.35</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>14</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,588.87</td>
+<td>$2,590.50</td>
+<td>$-1.63</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,001.87</td>
+<td>$3,012.80</td>
+<td>$-10.93</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,051.93</td>
+<td>$5,070.87</td>
+<td>$-18.93</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,074.47</td>
+<td>$3,108.85</td>
+<td>$-34.38</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,275.87</td>
+<td>$3,350.00</td>
+<td>$-74.13</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,801.80</td>
+<td>$5,851.23</td>
+<td>$-49.43</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>15</td>
+<td>13</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$6,136.60</td>
+<td>$6,257.15</td>
+<td>$-120.55</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,011.43</td>
+<td>$3,042.50</td>
+<td>$-31.07</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,225.36</td>
+<td>$3,281.33</td>
+<td>$-55.98</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,520.21</td>
+<td>$5,572.92</td>
+<td>$-52.70</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,846.57</td>
+<td>$5,940.50</td>
+<td>$-93.93</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,648.79</td>
+<td>$2,672.23</td>
+<td>$-23.45</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,948.07</td>
+<td>$3,005.23</td>
+<td>$-57.16</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,747.07</td>
+<td>$4,786.62</td>
+<td>$-39.54</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (20 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,213.00</td>
+<td>$5,312.92</td>
+<td>$-99.92</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,446.29</td>
+<td>$2,469.46</td>
+<td>$-23.18</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,716.57</td>
+<td>$2,772.15</td>
+<td>$-55.58</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,468.07</td>
+<td>$4,504.08</td>
+<td>$-36.01</td>
+</tr>
+<tr>
+<td>ELIN</td>
+<td>NULL</td>
+<td>Southland</td>
+<td>Invercargill (8 kVA capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,928.50</td>
+<td>$5,024.46</td>
+<td>$-95.96</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,520.71</td>
+<td>$2,505.43</td>
+<td>$15.29</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Rotorua &amp; Taupo</td>
+<td>Central North Island</td>
+<td>Taupo</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,672.86</td>
+<td>$2,652.64</td>
+<td>$20.21</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Rotorua &amp; Taupo</td>
+<td>Central North Island</td>
+<td>Taupo</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,935.21</td>
+<td>$4,883.79</td>
+<td>$51.43</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,513.86</td>
+<td>$2,504.21</td>
+<td>$9.64</td>
+</tr>
+<tr>
+<td>HEDL</td>
+<td>NULL</td>
+<td>Bay of Plenty</td>
+<td>Rural Eastern Bay of Plenty</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,517.00</td>
+<td>$2,510.36</td>
+<td>$6.64</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (High Density)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,193.43</td>
+<td>$5,192.36</td>
+<td>$1.07</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,872.36</td>
+<td>$2,838.38</td>
+<td>$33.97</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,463.64</td>
+<td>$5,395.46</td>
+<td>$68.18</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,722.57</td>
+<td>$2,700.62</td>
+<td>$21.96</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,268.71</td>
+<td>$5,213.46</td>
+<td>$55.25</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,422.43</td>
+<td>$2,406.00</td>
+<td>$16.43</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,367.57</td>
+<td>$4,325.21</td>
+<td>$42.36</td>
+</tr>
+<tr>
+<td>NPOW</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Whangarei</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,411.36</td>
+<td>$2,393.50</td>
+<td>$17.86</td>
+</tr>
+<tr>
+<td>OTPO</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Otago</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,358.79</td>
+<td>$3,348.86</td>
+<td>$9.93</td>
+</tr>
+<tr>
+<td>TASM</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Tasman / Nelson Districts</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,493.43</td>
+<td>$2,468.43</td>
+<td>$25.00</td>
+</tr>
+<tr>
+<td>TASM</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Tasman / Nelson Districts</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,502.29</td>
+<td>$4,435.00</td>
+<td>$67.29</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>0</td>
+<td>14</td>
+<td>No</td>
+<td>No</td>
+<td>$2,273.71</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$2,380.79</td>
+<td>$2,403.42</td>
+<td>$-22.63</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,089.14</td>
+<td>$4,122.00</td>
+<td>$-32.86</td>
+</tr>
+<tr>
+<td>VECT</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Auckland Central / Manukau</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$4,297.14</td>
+<td>$4,330.50</td>
+<td>$-33.36</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,781.50</td>
+<td>$2,800.46</td>
+<td>$-18.96</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,977.64</td>
+<td>$3,012.38</td>
+<td>$-34.74</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,825.93</td>
+<td>$2,838.54</td>
+<td>$-12.61</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,899.71</td>
+<td>$4,928.08</td>
+<td>$-28.36</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>14</td>
+<td>13</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,134.00</td>
+<td>$5,190.92</td>
+<td>$-56.92</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$3,003.57</td>
+<td>$3,141.83</td>
+<td>$-138.26</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>14</td>
+<td>12</td>
+<td>2</td>
+<td>No</td>
+<td>No</td>
+<td>$5,656.79</td>
+<td>$5,917.58</td>
+<td>$-260.80</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,214.46</td>
+<td>$3,217.08</td>
+<td>$-2.62</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>NULL</td>
+<td>Central North Island</td>
+<td>King Country (Low Density)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,667.31</td>
+<td>$5,645.00</td>
+<td>$22.31</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$3,033.08</td>
+<td>$3,001.00</td>
+<td>$32.08</td>
+</tr>
+<tr>
+<td>MARL</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Marlborough</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,340.46</td>
+<td>$5,246.15</td>
+<td>$94.31</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,466.23</td>
+<td>$2,451.77</td>
+<td>$14.46</td>
+</tr>
+<tr>
+<td>NELS</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Nelson City</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,432.69</td>
+<td>$4,393.54</td>
+<td>$39.15</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,532.85</td>
+<td>$2,531.54</td>
+<td>$1.31</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Tauranga</td>
+<td>Bay of Plenty</td>
+<td>Tauranga</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,684.77</td>
+<td>$4,667.46</td>
+<td>$17.31</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,526.69</td>
+<td>$2,541.92</td>
+<td>$-15.22</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,654.38</td>
+<td>$4,682.83</td>
+<td>$-28.45</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,689.77</td>
+<td>$2,698.42</td>
+<td>$-8.65</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,762.62</td>
+<td>$2,767.33</td>
+<td>$-4.72</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,944.92</td>
+<td>$4,955.17</td>
+<td>$-10.24</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western A</td>
+<td>Whanganui</td>
+<td>Palmerston North</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,097.15</td>
+<td>$5,098.75</td>
+<td>$-1.60</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,765.85</td>
+<td>$2,774.77</td>
+<td>$-8.92</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,854.08</td>
+<td>$2,866.67</td>
+<td>$-12.59</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,183.77</td>
+<td>$5,210.42</td>
+<td>$-26.65</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Western B</td>
+<td>Taranaki</td>
+<td>Opunake</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,362.85</td>
+<td>$5,381.58</td>
+<td>$-18.74</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,678.31</td>
+<td>$2,689.33</td>
+<td>$-11.03</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,219.38</td>
+<td>$5,207.54</td>
+<td>$11.85</td>
+</tr>
+<tr>
+<td>SCAN</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Southern Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,106.08</td>
+<td>$5,124.75</td>
+<td>$-18.67</td>
+</tr>
+<tr>
+<td>TASM</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Tasman / Nelson Districts</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,511.92</td>
+<td>$2,489.54</td>
+<td>$22.38</td>
+</tr>
+<tr>
+<td>TASM</td>
+<td>NULL</td>
+<td>Marlborough</td>
+<td>Tasman / Nelson Districts</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,506.54</td>
+<td>$4,441.85</td>
+<td>$64.69</td>
+</tr>
+<tr>
+<td>WATA</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Waitaki</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,984.69</td>
+<td>$4,977.77</td>
+<td>$6.92</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,408.75</td>
+<td>$2,422.36</td>
+<td>$-13.61</td>
+</tr>
+<tr>
+<td>CKHK</td>
+<td>NULL</td>
+<td>Wellington</td>
+<td>Wellington City</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,335.75</td>
+<td>$4,362.45</td>
+<td>$-26.70</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,863.08</td>
+<td>$2,856.55</td>
+<td>$6.54</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,100.67</td>
+<td>$3,093.64</td>
+<td>$7.03</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,840.25</td>
+<td>$2,819.36</td>
+<td>$20.89</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,391.08</td>
+<td>$5,370.18</td>
+<td>$20.90</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,804.00</td>
+<td>$5,781.55</td>
+<td>$22.45</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (15 kVA)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,323.42</td>
+<td>$5,269.27</td>
+<td>$54.14</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,758.83</td>
+<td>$2,770.09</td>
+<td>$-11.26</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,991.58</td>
+<td>$3,002.36</td>
+<td>$-10.78</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,728.83</td>
+<td>$2,725.09</td>
+<td>$3.74</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,248.25</td>
+<td>$5,244.82</td>
+<td>$3.43</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,655.08</td>
+<td>$5,651.36</td>
+<td>$3.72</td>
+</tr>
+<tr>
+<td>LLNW</td>
+<td>NULL</td>
+<td>Otago</td>
+<td>Lakelands - Embedded (8 kVA)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Heat pump</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,167.17</td>
+<td>$5,129.91</td>
+<td>$37.26</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,809.92</td>
+<td>$4,822.55</td>
+<td>$-12.63</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,231.08</td>
+<td>$3,261.45</td>
+<td>$-30.37</td>
+</tr>
+<tr>
+<td>WPOW</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Westland</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,029.17</td>
+<td>$6,078.00</td>
+<td>$-48.83</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,672.82</td>
+<td>$2,639.18</td>
+<td>$33.64</td>
+</tr>
+<tr>
+<td>COUP</td>
+<td>NULL</td>
+<td>Auckland</td>
+<td>Pukekohe</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,869.36</td>
+<td>$4,779.73</td>
+<td>$89.64</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,440.55</td>
+<td>$2,422.27</td>
+<td>$18.27</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Hawke&#x27;s Bay</td>
+<td>Eastland</td>
+<td>Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,483.18</td>
+<td>$4,436.64</td>
+<td>$46.55</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,581.27</td>
+<td>$2,581.90</td>
+<td>$-0.63</td>
+</tr>
+<tr>
+<td>WAIK</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Hamilton</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,631.45</td>
+<td>$4,635.90</td>
+<td>$-4.45</td>
+</tr>
+<tr>
+<td>WAIP</td>
+<td>NULL</td>
+<td>Waikato</td>
+<td>Waipa</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,526.82</td>
+<td>$2,535.00</td>
+<td>$-8.18</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,818.30</td>
+<td>$2,775.10</td>
+<td>$43.20</td>
+</tr>
+<tr>
+<td>CHBP</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Central Hawke&#x27;s Bay</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$5,177.00</td>
+<td>$5,081.80</td>
+<td>$95.20</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>9</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,593.30</td>
+<td>$2,589.00</td>
+<td>$4.30</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (20 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>9</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,767.60</td>
+<td>$4,751.78</td>
+<td>$15.82</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>9</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,596.30</td>
+<td>$2,592.33</td>
+<td>$3.97</td>
+</tr>
+<tr>
+<td>EASH</td>
+<td>NULL</td>
+<td>Canterbury</td>
+<td>Ashburton (8 kVA - Capacity)</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>9</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,772.60</td>
+<td>$4,757.33</td>
+<td>$15.27</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Rotorua &amp; Taupo</td>
+<td>Central North Island</td>
+<td>Taupo</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,704.50</td>
+<td>$2,677.90</td>
+<td>$26.60</td>
+</tr>
+<tr>
+<td>HAWK</td>
+<td>Rotorua &amp; Taupo</td>
+<td>Central North Island</td>
+<td>Taupo</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,941.70</td>
+<td>$4,882.80</td>
+<td>$58.90</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>7</td>
+<td>6</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$3,377.43</td>
+<td>$3,399.83</td>
+<td>$-22.40</td>
+</tr>
+<tr>
+<td>BUEL</td>
+<td>NULL</td>
+<td>Westland</td>
+<td>Buller</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>7</td>
+<td>6</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$6,228.29</td>
+<td>$6,290.50</td>
+<td>$-62.21</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>7</td>
+<td>6</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,670.57</td>
+<td>$2,672.00</td>
+<td>$-1.43</td>
+</tr>
+<tr>
+<td>EAST</td>
+<td>NULL</td>
+<td>Eastland</td>
+<td>Eastland (High Density)</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>6</td>
+<td>5</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$4,700.33</td>
+<td>$4,662.40</td>
+<td>$37.93</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>1-2 people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$2,766.25</td>
+<td>$2,752.00</td>
+<td>$14.25</td>
+</tr>
+<tr>
+<td>TOPE</td>
+<td>NULL</td>
+<td>Northland</td>
+<td>Northern Northland</td>
+<td>5+ people</td>
+<td>Electric hot water cylinder</td>
+<td>Night store heater</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>No</td>
+<td>No</td>
+<td>$5,166.25</td>
+<td>$5,077.33</td>
+<td>$88.92</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>1-2 people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$2,500.00</td>
+<td>$2,500.00</td>
+<td>$0.00</td>
+</tr>
+<tr>
+<td>POCO</td>
+<td>Valley</td>
+<td>Waikato</td>
+<td>Thames Valley Whangamata</td>
+<td>5+ people</td>
+<td>Electric continuous hot water</td>
+<td>Night store heater</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>No</td>
+<td>No</td>
+<td>$4,553.00</td>
+<td>$4,553.00</td>
+<td>$0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note">Rows: 384</div>
+</section>
+
+<script>
+    function filterTable(tableId, query) {
+        const q = (query || '').toLowerCase();
+        const table = document.getElementById(tableId);
+        if (!table) return;
+        const rows = table.tBodies[0].rows;
+        for (const row of rows) {
+            const text = row.innerText.toLowerCase();
+            row.style.display = text.includes(q) ? '' : 'none';
+        }
+    }
+</script>
+                
+</div>
+</body>
+</html>
